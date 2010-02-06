@@ -15,8 +15,8 @@ accordionTwo = \new Staff {
     e8 r16 e8 r16 e8 r16 e8 r16 e8 e8
 
     e8 r16 e8 r16 e8 r16 e8 r16 e8 e8
-    f8 r16 f8 r16 f8 r16 f8 r16 f8 f8
-    g8 r16 g8 r16 g8 r16 g8 r16 g8 g8
+    d8 r16 d8 r16 d8 r16 d8 r16 d8 d8
+    e8 r16 e8 r16 e8 r16 e8 r16 e8 e8
     a8 r16 a8 r16 a8 r16 a8 r16 a8 a8
 
     \mark \default
@@ -38,29 +38,29 @@ accordionTwo = \new Staff {
 
     \mark \default
 
-    <d, f>8\p r16 <d f>8 r16 <d f>8 r16 <d f>8 r16 <d f>8 <d f>8
-    <b d>8 r16 <b d>8 r16 <b d>8 r16 <b d>8 r16 <b d>8 <b d>8
-    <c e>8 r16 <c e>8 r16 <c e>8 r16 <c e>8 r16 <c e>8 <c e>8
-    <d f>8 r16 <d f>8 r16 <d f>8 r16 <d f>8 r16 <d f>8 <d f>8
-
-    <d f>8 r16 <d f>8 r16 <d f>8 r16 <d f>8 r16 <d f>8 <d f>8
-    <b d>8 r16 <b d>8 r16 <b d>8 r16 <b d>8 r16 <b d>8 <b d>8
-    <c e>8 r16 <c e>8 r16 <c e>8 r16 <c e>8 r16 <c e>8 <c e>8
-    <c f>8 r16 <c f>8 r16 <c f>8 r16 <c f>8 r16 <c f>8 <c f>8
+    <e, a>8     r8. d16 <e a>8 r8. d16 <e a>8 f16\(  d
+    <b f' a>8\) r8. d16 <f a>8 r8. d16 <f a>8 b,16\( d
+    c8\)        r8. c16 <f a>8 r8. c16 <f a>8 d16\(  f
+    <e a>8\)    r8. d16 <e a>8 r8. d16 <e a>8 <f a>8
+    
+    r8 d16  <f a>8  r8. d16  <f a>8  r16 <d a'>8 <f a>8
+    r8 b,16 <f' a>8 r8. b,16 <f' a>8 r16 <b, d>8 <f' a>8
+    r8 c16  <f a>8  r8. c16  <f a>8  r16 <e g>8  <f a>8
+    r8 c16  <f a>8  r8. c16  <f a>8  r16 <f a>8 <c e>16\( <d f>16
 
     \mark \default
 
-    <d f>8\mp r16 <d f>8 r16 <d f>8 r16 <cis e>8 r16 <cis e>8 <cis e>8
-    <d f>8 r16 <d f>8 r16 <d f>8 r16 <e g>8 r16 <e g>8 <e g>8
-    <d f>8 r16 <d f>8 r16 <d f>8 r16 <cis e>8 r16 <cis e>8 <cis e>8
-    <d f>8 r16 <d f>8 r16 <d f>8 r16 <c e>8 r16 <c e>8 <c e>8
+    <b d g>8\) <b d>16 <b d g>8 r8. <cis e>16 <e g>8 r8. <cis e>16~\( <cis g'>16
+    <d f>8\) <d f>16 <f a>8 r8. <c f>16 <f a>8 r8. <c e>16\( <d f>16
+    <b d g>8\) <b d>16 <b d g>8 r8. <cis e>16 <e g>8 r8. <cis e>16~\( <cis g'>16
+    <d f>8\) <d f>16 <f a>8 r8. <c f>16 <f a>8 r8. <c e>16\( <d f>16
 
-    <d f>8 r16 <d f>8 r16 <d f>8 r16 <cis e g>8 r16 <cis e g>8 <cis e g>8
-    <d f a>8 r16 <d f a>8 r16 <d f a>8 r16 <c e a>8 r16 <c e a>8 <c e a>8
-    <d f b>8 r16 <d f b>8 r16 <d f b>8 r16 <d f b>8 r16 <d f b>8 <d f b>8
-    <e g c>1
+    <b d g>8\) <b d>16 <b d g>8 r8. <cis e>16 <e g>8 r8. <cis e>16~\( <cis g'>16
+    <d f>8\) <d f>16 <f a>8 r8. <c f>16 <f a>8 r8. <c e>16\( <d f>16
+    <b d>8\) <c e>16 <d f>8 r8. <c e>16 <d f>8 r8. <d f>16\( <e g>16
+
+    <e g c>1\)
 
     \bar "|."
   } 
 }
-

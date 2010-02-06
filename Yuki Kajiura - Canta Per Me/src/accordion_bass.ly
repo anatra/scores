@@ -44,12 +44,12 @@ accordionBass = \new Staff {
     f8 r16 f8 r16 f8 r16 f8 r16 f16 f16 f16 f16
 
 
-    <b, b'>2 <a a'>
+    <g, g'>2 <a a'>
     <d d'> <c c'>
     <b b'> <a a'>
     <d d'> <c c'>
 
-    <b b'> <a a'>
+    <g g'> <a a'>
     <d d'> <c c'>
     <b b'>1
     <c g' c>

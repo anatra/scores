@@ -7,7 +7,7 @@ celloOne = \new Staff {
   \tag #'score \tag #'part \relative c {
     \tag #'part   
     \set Score.skipBars = ##t
-    a'8^\markup {staccato} a16 a8 a16 a8 a16 a8 a16 a8 a8
+    a'8 a16 a8 a16 a8 a16 a8 a16 a8 a8
     a8 a16 a8 a16 a8 a16 a8 a16 a8 a8
 
     \mark \default

@@ -2,7 +2,7 @@
 #(set-global-staff-size 18)
 
 \include "src/settings.ly"
-
+\include "src/accordion.ly"
 \include "src/accordion_one.ly"
 \include "src/accordion_two.ly"
 \include "src/accordion_three.ly"
@@ -15,13 +15,13 @@
   \new StaffGroup <<
     \accordionOne
     \accordionTwo
-    \celloOne
-    \celloTwo
     \new PianoStaff <<
       \set PianoStaff.instrumentName = #"Accordion 3"
       \accordionThree
       \accordionBass
     >>
+    \celloOne
+    \celloTwo
   >>
 }
 \paper {

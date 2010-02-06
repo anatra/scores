@@ -9,6 +9,15 @@ accordionThree = \new Staff {
 
     \mark \default
 
+%    c'8\mp r16 c8 r16 c8 r16 c8 r16 c8 c8
+%    b8 r16 b8 r16 b8 r16 b8 r16 b8 b8
+%    c8 r16 c8 r16 c8 r16 c8 r16 c8 c8
+%    c8 r16 c8 r16 c8 r16 c8 r16 c8 c8
+%
+%    c8 r16 c8 r16 c8 r16 c8 r16 c8 c8
+%    b8 r16 b8 r16 b8 r16 b8 r16 b8 b8
+%    c8 r16 c8 r16 c8 r16 c8 r16 c8 c8
+%    c8 r16 c8 r16 c8 r16 c8 r16 c8 c8
     R1*8
 
     \mark \default

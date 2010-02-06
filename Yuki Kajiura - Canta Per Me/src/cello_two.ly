@@ -5,7 +5,7 @@ celloTwo = \new Staff {
   \defaultTime
   \clef bass
   \tag #'score \tag #'part \relative c {
-    d8^\markup {staccato} d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
+    d8 d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
     d8 d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
 
     \mark \default

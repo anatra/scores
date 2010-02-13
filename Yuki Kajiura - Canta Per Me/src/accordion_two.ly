@@ -61,6 +61,33 @@ accordionTwo = \new Staff {
 
     <e g c>1\)
 
+    \mark \default
+
+    e'8 e16 e8 e16 e8 e16 e8 e16 e8 e8
+    e8 e16 e8 e16 e8 e16 e8 e16 e8 e8
+    d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+    e8 e16 e8 e16 e8 e16 e8 e16 e8 e8
+
+    e8 e16 e8 e16 e8 e16 e8 e16 e8 e8
+    e8 e16 e8 e16 e8 e16 e8 e16 e8 e8
+    d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+    e8 e16 e8 e16 e8 e16 e8 r16 <a c>4\(
+
+    \mark \default
+
+    <a c>4 <g b>4 <f a>4 <e g>4
+    <e g>4 <f a>2.\) 
+    R1
+    r2 <e g>4\( <f a>4
+
+    <a c>4 <g b>4 <f a>4 <e g>4
+    <e g>4 <f a>2.\) 
+    R1*2
+    
+    e8\mf e16 e8 e16 e8 e16 e8 e16 e8 e8
+    e8 e16 e8 e16 e8 e16 e8 e16 e8 e8
+
+    e2~\p\< e4\mf\! r4
     \bar "|."
   } 
 }

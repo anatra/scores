@@ -36,6 +36,12 @@ accordionThree = \new Staff {
 
     R1*8
 
+    \mark \default
+
+    R1*8
+
+    \mark \default
+
     \bar "|."
   } 
 }

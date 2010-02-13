@@ -54,6 +54,31 @@ accordionBass = \new Staff {
     <b b'>1
     <c g' c>
 
+    d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
+    d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
+    b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
+    c8 r16 c8 r16 c8 r16 c8 r16 c16 c16 c16 c16
+
+    d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
+    d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
+    b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
+    c8 r16 c8 r16 c8 r16 c8 r16 c16 c16 c16 c16
+
+    g8 r16 g8 r16 g8 r16 a8 r16 a16 a16 a16 a16
+    d8 r16 d8 r16 d8 r16 c8 r16 c16 c16 c16 c16
+    g8 r16 g8 r16 g8 r16 a8 r16 a16 a16 a16 a16
+    d8 r16 d8 r16 d8 r16 c8 r16 c16 c16 c16 c16
+
+    g8 r16 g8 r16 g8 r16 a8 r16 a16 a16 a16 a16
+    d8 r16 d8 r16 d8 r16 c8 r16 c16 c16 c16 c16
+    b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
+    c1
+
+    d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
+    d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
+
+    R1
+
     \bar "|."
   } 
 }

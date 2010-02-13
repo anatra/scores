@@ -59,10 +59,22 @@ celloTwo = \new Staff {
     c b a g 
     b8 r16 b16 a4 g f
     d d2~d8 g
-    g a c2 r4
+    g a c2 a16\( c e g
+
+    \mark \default
+
+    g8.\) f16 \times 2/3 {e8 f e} \times 2/3 {d e d} d8. a16
+    f8. e16 \times 2/3 {d8 f a} \times 2/3 {c a a} \times 2/3 {a g f}
+    b,8. a16 \times 2/3 {b8 d f} \times 2/3 {a c c} \times 2/3 {c a g16 f}
+    e4~ \times 2/3 {e8 g g} \times 2/3 {g b b} \times 2/3 {b f e}
+
+    d4 r4 r2
+    R1*3
+
+    \mark \default
+
+    
 
     \bar "|."
   } 
-
 }
-

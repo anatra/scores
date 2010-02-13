@@ -32,12 +32,12 @@ accordionOne = \new Staff {
 
     \mark \default
 
-    <d, a' e'>8\accClarin\mp r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
+    <d,, a' e'>8\accClarin\mp r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
     <d  a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
     
     \mark \default
     
-    r8 d,16 <f a>8  r8. d16  <f a>8  r16 <d a'>8 <f a>8
+    r8\accViolin d16 <f a>8  r8. d16  <f a>8  r16 <d a'>8 <f a>8
     r8 b,16 <f' a>8 r8. b,16 <f' a>8 r16 <b, d>8 <f' a>8
     r8 c16  <f a>8  r8. c16  <f a>8  r16 <e g>8  <f a>8
     r8 d16  <f a>8  r8. d16  <f a>8  r16 <f a>8\( <e g>16 <d f>16
@@ -58,6 +58,20 @@ accordionOne = \new Staff {
     <d f>8\) r8. <d f>16 <f a>8 r8. <c f>16 <f a>8 g16\( e16
     <b d>8\) r8. <b d>16 <d f>8 r8. <b d>16 <d f>8 <b d>16\(<d f>16
     <c g'>1\)
+
+    \mark \default
+    
+    <d, a'>8 \repeat unfold 4 {<d a'>16 <d a'>8} <d a'>16 <d a'>16
+    \repeat unfold 5 {<d a'>8 <d a'>16} <d a'>16
+    \repeat unfold 5 {<b f'>8 <b f'>16} <b f'>16
+    \repeat unfold 5 {<c g'>8 <c g'>16} <c g'>16
+
+    \repeat unfold 5 {<d a'>8 <d a'>16} <d a'>16
+    \repeat unfold 5 {<d a'>8 <d a'>16} <d a'>16
+    \repeat unfold 5 {<b f'>8 <b f'>16} <b f'>16
+    \repeat unfold 5 {<c g'>8 <c g'>16} <c g'>16
+
+    \mark \default
 
     \bar "|."
   }

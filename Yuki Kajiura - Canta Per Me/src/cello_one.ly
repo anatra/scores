@@ -33,11 +33,11 @@ celloOne = \new Staff {
     d8 d16 d8 d16 d8 d16 c8 c16 c8 c8
     f8 f16 f8 f16 f8 f16 f8 f16 f8 f8
 
-    g2. a,16 c e g
+    g2.\( a,16 c e g
 
     \mark \default
 
-    a8 a16 a8 a16 a8 a16 a8 a16 a8 a8
+    a8\) a16 a8 a16 a8 a16 a8 a16 a8 a8
     a8 a16 a8 a16 a8 a16 a8 a16 a8 a8
 
     \mark \default
@@ -63,12 +63,24 @@ celloOne = \new Staff {
 
     e d c b 
     d8 r16 d16 cis4 b a
-    f g2~g8 g
-    g a c2 r4
+    f g2~g8 \ottava #0 g,
+    g a c2.~\>
 
-    \ottava #0
+    \mark \default
+
+    c2\! r2
+    R1*2
+    r2 r4 \times 2/3 {r8 d d}
+
+    \autoBeamOff
+    d'8. a8 a16 a \grace { b16[ a16]} g a8. g8 g16 g \grace { a16[ g16]} f
+    d8 d8 c16 \grace { d16[ c16] } a8 r16 \times 2/3 {r8 a a} b8[ a16 a]
+    b4~ \times 2/3 {b8 a \grace { b16[ a16] } g8} \times 2/3 {a[ g f]} \times 2/3 {g[ f e]}
+    \autoBeamOn
+    \times 2/3 {e8~ e d} \times 2/3 {e g b } \times 2/3 {d~ d c~} c4
+
+    \mark \default
 
     \bar "|."
   } 
 }
-

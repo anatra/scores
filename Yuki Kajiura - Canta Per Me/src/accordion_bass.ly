@@ -18,14 +18,15 @@ accordionBass = \new Staff {
     f8 r16 f8 r16 f8 r16 f8 r16 f16 f16 f16 f16
 
 
-    b,8 r16 b8 r16 b8 r16 a8 r16 a16 a16 a16 a16
-    d8 r16 d8 r16 d8 r16 c8 r16 c16 c16 c16 c16
-    b8 r16 b8 r16 b8 r16 a8 r16 a16 a16 a16 a16
-    d8 r16 d8 r16 d8 r16 c8 r16 c16 c16 c16 c16
+    b,8 r16 b8 r16 b8 a8 r16 a8 r16 a8
+    d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
+    b8 r16 b8 r16 b8 a8 r16 a8 r16 a8
+    d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
 
-    g8 r16 g8 r16 g8 r16 a8 r16 a16 a16 a16 a16
-    d8 r16 d8 r16 d8 r16 c8 r16 c16 c16 c16 c16
+    g8 r16 g8 r16 g8 a8 r16 a8 r16 a8
+    d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
     b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
+
     c1
 
 
@@ -64,13 +65,13 @@ accordionBass = \new Staff {
     b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
     c8 r16 c8 r16 c8 r16 c8 r16 c16 c16 c16 c16
 
-    g8 r16 g8 r16 g8 r16 a8 r16 a16 a16 a16 a16
-    d8 r16 d8 r16 d8 r16 c8 r16 c16 c16 c16 c16
-    g8 r16 g8 r16 g8 r16 a8 r16 a16 a16 a16 a16
-    d8 r16 d8 r16 d8 r16 c8 r16 c16 c16 c16 c16
+    g8 r16 g8 r16 g8 a8 r16 a8 r16 a8
+    d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
+    g8 r16 g8 r16 g8 a8 r16 a8 r16 a8
+    d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
 
-    g8 r16 g8 r16 g8 r16 a8 r16 a16 a16 a16 a16
-    d8 r16 d8 r16 d8 r16 c8 r16 c16 c16 c16 c16
+    g8 r16 g8 r16 g8 a8 r16 a8 r16 a8
+    d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
     b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
     c1
 

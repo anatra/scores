@@ -33,7 +33,7 @@ celloOne = \new Staff {
     d8 d16 d8 d16 d8 d16 c8 c16 c8 c8
     f8 f16 f8 f16 f8 f16 f8 f16 f8 f8
 
-    g2.\( a,16 c e g
+    g2. a,16\( c e g
 
     \mark \default
 
@@ -80,6 +80,8 @@ celloOne = \new Staff {
     \times 2/3 {e8~ e d} \times 2/3 {e g b } \times 2/3 {d~ d c~} c4
 
     \mark \default
+
+    R1*11
 
     \bar "|."
   } 

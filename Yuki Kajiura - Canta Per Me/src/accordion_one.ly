@@ -28,11 +28,11 @@ accordionOne = \new Staff {
     <a c>4\mp\> <g b>4 <f a>4 <e g>4
     <g b>4 <f a>4 <e g>4 <d f>4\!
     <d f>4 g2~g8\) g 
-    g a c2 r4
+    g a c2.\>
 
     \mark \default
 
-    <d,, a' e'>8\accClarin\mp r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
+    <d,, a' e'>8\accClarin\mp\! r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
     <d  a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
     
     \mark \default
@@ -72,6 +72,8 @@ accordionOne = \new Staff {
     \repeat unfold 5 {<c g'>8 <c g'>16} <c g'>16
 
     \mark \default
+
+    R1*11
 
     \bar "|."
   }

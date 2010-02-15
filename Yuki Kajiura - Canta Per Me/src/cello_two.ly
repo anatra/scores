@@ -73,7 +73,20 @@ celloTwo = \new Staff {
 
     \mark \default
 
-    
+    \ottava #1
+    \set Staff.ottavation = #"8"
+    r8 g'~g8. f16 e8. e16~ \times 2/3 {e8 f g}
+    a8.~ g8 f e16 e8. d8 c a16
+    b4. a8 \grace { b8[ a8]} g8. f8 e8 d16
+    d4 c8. e16 d4 \times 2/3 {a'8 b c}
+    e4~ \times 2/3 {e8 d8 f8 \grace { gis8 }} a8. c8 b8 b16~
+    b8 a8. g16 g8 \grace { f8[ e8]} d4 \times 2/3{c8 d c}
+    b8. d8. f8 f4 \times 2/3 {e8 f g}
+
+    c2. a,16 c e g
+    g8. f16 f8 e16 f32 g a8. c8. e8
+    d1~
+    d2. \ottava #0 r4
 
     \bar "|."
   } 

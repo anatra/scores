@@ -44,8 +44,8 @@ celloOne = \new Staff {
 
     c4 c8 c c4 c8 c
     c4 c~c c
-    g g~g g
-    a a2.
+    c c~c g
+    g a2.
 
     \ottava #1
     \set Staff.ottavation = #"8"
@@ -63,7 +63,7 @@ celloOne = \new Staff {
 
     e d c b 
     d8 r16 d16 cis4 b a
-    f g2~g8 \ottava #0 g,
+    a b2~b8 \ottava #0 g,
     g a c2.~\>
 
     \mark \default

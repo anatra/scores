@@ -9,6 +9,7 @@
 \include "src/accordion_bass.ly"
 \include "src/cello_one.ly"
 \include "src/cello_two.ly"
+\include "src/guitar.ly"
 
 {
   \set Score.markFormatter = #format-mark-box-numbers
@@ -20,6 +21,7 @@
       \accordionThree
       \accordionBass
     >>
+    \guitar
     \celloOne
     \celloTwo
   >>

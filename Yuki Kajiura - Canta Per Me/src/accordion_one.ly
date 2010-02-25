@@ -11,9 +11,9 @@ accordionOne = \new Staff {
     a4\accViolin\mp\( a8 a g4. a8
     g4 f~f\( a\(
     a g~g\) e\(
-    e f2~f16\) b32\( c d e f g
+    e f2~f16\) b32\(\< c d e f g
 
-    a4\mf a8 a g4. a8
+    a4\mf\! a8 a g4. a8
     g4 f~f\) a\(
     a g~g\) b\(
     b a4~a4\) <a c>4\mf\(

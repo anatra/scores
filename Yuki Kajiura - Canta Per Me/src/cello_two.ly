@@ -78,7 +78,7 @@ celloTwo = \new Staff {
     r8 g'~g8. f16 e8. e16~ \times 2/3 {e8 f g}
     a8.~ g8 f e16 e8. d8 c a16
     b4. a8 \grace { b8[ a8]} g8. f8 e8 d16
-    d4 c8. e16 d4 \times 2/3 {a'8 b c}
+    d4. c16. f32 d4 \times 2/3 {a'8 b c}
     e4~ \times 2/3 {e8 d8 f8 \grace { gis8 }} a8. c8 b8 b16~
     b8 a8. g16 g8 \grace { f8[ e8]} d4 \times 2/3{c8 d c}
     b8. d8. f8 f4 \times 2/3 {e8 f g}

@@ -16,7 +16,7 @@ guitar = \new RhythmicStaff {
 
     \mark \default
 
-    d8-> d16 d8-> d16 d8-> d16 d8-> d16 d8-> d8->
+    d8->\mp d16 d8-> d16 d8-> d16 d8-> d16 d8-> d8->
     b8->^\accB b16 b8-> b16 b8-> b16 b8-> b16 b8-> b8->
     c8->^\accC c16 c8-> c16 c8-> c16 c8-> c16 c8-> c8->
     d8->^\accDm d16 d8-> d16 d8-> d16 d8-> d16 d32-> d32 d16 d8->
@@ -88,6 +88,19 @@ guitar = \new RhythmicStaff {
     \mark \default
 
 
+    g8->^\accGm g16 g8-> g16 g8-> c16^\accA a-> a-> a a a a8->
+    d8->^\accDm d16 d8-> d16 d8-> c16^\accC c8-> c16 c8-> c8
+    g8->^\accGm d16 g8-> g16 g8-> a16^\accA a8-> a8-> a16 a8->
+    d8->^\accDm d16 d8-> d16 d8-> c16^\accC c32 c32 c16-> c16 c16 c16 c8->
+
+    g8->^\accGm g16 g8-> g16 g8-> a16^\accA a32 a32 a16-> a16 a8-> a8->
+    d8->^\accDm d16 d8-> d16 d8-> c16^\accC c8-> c8-> c16 c8->
+    b8->\p^\accB b16 b8-> b16 b8-> b16 b8-> b16 b8-> b32 b32 b16->
+    c2.^\accC r4
+
+    d8->^\accDm d16 d8-> d16 d8-> d16 d8-> d16 d8-> d8->
+    d8-> d16 d8-> d16 d8-> d16 d8-> d16 d8-> d8->
+    d32^\accC\p d32 d8.~ d4 r2
     \bar "|."
   }
 }

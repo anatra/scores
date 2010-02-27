@@ -23,12 +23,12 @@ accordionOne = \new Staff {
     <a c>4 <g b>4 <f a>4 <e g>4
     <e g>4 <f a>4~<f a>4\) <f a>4\(
     <f a>4 <e g>4 <d f>4 <cis e>4
-    <e g>4 <d f>4\) <e g>4\( <f a>4
+    <e g>4 <d f>4\) <e g>4^","\( <f a>4
 
-    <a c>4\mp\> <g b>4 <f a>4 <e g>4
+    <a c>4\> <g b>4 <f a>4 <e g>4
     <g b>4 <f a>4 <e g>4 <d f>4\!
     <d f>4 g2~g8\) g 
-    g a c2.\>
+    g\< a c2.\!\>
 
     \mark \default
 
@@ -37,44 +37,55 @@ accordionOne = \new Staff {
     
     \mark \default
     
-    r8\accViolin d16 <f a>8  r8. d16  <f a>8  r16 <d a'>8 <f a>8
+    r8\p\accViolin d16 <f a>8  r8. d16  <f a>8  r16 <d a'>8 <f a>8
     r8 b,16 <f' a>8 r8. b,16 <f' a>8 r16 <b, d>8 <f' a>8
     r8 c16  <f a>8  r8. c16  <f a>8  r16 <e g>8  <f a>8
     r8 d16  <f a>8  r8. d16  <f a>8  r16 <f a>8\( <e g>16 <d f>16
 
     <e a>8\)    r8. d16 <e a>8 r8. d16 <e a>8 f16\(  d
     <b f' a>8\) r8. d16 <f a>8 r8. d16 <f a>8 b,16\( d
-    c8\)        r8. c16 <f a>8 r8. c16 <f a>8\( <e g>16 <f a>16
+    c8\)        r8. c16 <e g>8 r8. c16 <e g>8\( <e g>16 <f a>16
     <c f a>8\)  r8. c16 <f a>8 r8. c16 <f a>8 <f a>8
 
     \mark \default
 
-    r8 r8. <b d>16 <b d g>8 r8. <cis e>16 <cis g'>8 <cis g'>16~\(<cis e>16
+    r8\mp r8. <b d>16 <b d g>8 r8. <cis e>16 <cis g'>8 <cis a'>16~\(<cis e>16
     <d f>8\) r8. <d f>16 <f a>8 r8. <c f>16 <f a>8 <c e>16\( <d f>16
-    <b d g>8\) r8. <b d>16 <b d g>8 r8. <cis e>16 <cis g>8 <cis g>16~\(<cis e>16
+    <b d g>8\) r8. <b d>16 <b d g>8 r8. <cis e>16 <cis g'>8 <cis a'>16~\(<cis e>16
     <d f>8\) r8. <d f>16 <f a>8 r8. <c f>16 <f a>8 <c e>16\( <d f>16
 
-    <b d g>8\) r8. <b d>16 <b d g>8 r8. <cis e>16 <cis g>8 <cis g>16~\(<cis e>16
+    <b d g>8\) r8. <b d>16 <b d g>8 r8. <cis e>16 <cis g'>8 <cis a'>16~\(<cis e>16
     <d f>8\) r8. <d f>16 <f a>8 r8. <c f>16 <f a>8 g16\( e16
-    <b d>8\) r8. <b d>16 <d f>8 r8. <b d>16 <d f>8 <b d>16\(<d f>16
-    <c g'>1\)
+    <b d>8\) r8. <b d>16 <d f>8 r8. <b d>16 <d f>8 <b d>16\(~ <b f'>16
+    << { <c g'>2.\) r4 } { s2\< s4\! s4 } >>
 
     \mark \default
     
-    <d, a'>8 \repeat unfold 4 {<d a'>16 <d a'>8} <d a'>16 <d a'>16
-    \repeat unfold 5 {<d a'>8 <d a'>16} <d a'>16
-    \repeat unfold 5 {<b f'>8 <b f'>16} <b f'>16
-    \repeat unfold 5 {<c g'>8 <c g'>16} <c g'>16
+    <d, a'>8\mp \repeat unfold 4 {r16 <d a'>8} <d a'>16 <d a'>16
+    \repeat unfold 4 {<d a'>8 r16} <d a'>8 <d a'>16 <d a'>16
+    \repeat unfold 4 {<b f'>8 r16} <b f'>8 <b f'>16 <b f'>16
+    \repeat unfold 4 {<c g'>8 r16} <c g'>8 <c g'>16 <c g'>16
 
-    \repeat unfold 5 {<d a'>8 <d a'>16} <d a'>16
-    \repeat unfold 5 {<d a'>8 <d a'>16} <d a'>16
-    \repeat unfold 5 {<b f'>8 <b f'>16} <b f'>16
-    \repeat unfold 5 {<c g'>8 <c g'>16} <c g'>16
+    \repeat unfold 4 {<d a'>8 r16} <d a'>8 <d a'>16 <d a'>16
+    \repeat unfold 4 {<d a'>8 r16} <d a'>8 <d a'>16 <d a'>16
+    \repeat unfold 4 {<b f'>8 r16} <b f'>8 <b f'>16 <b f'>16
+    \repeat unfold 4 {<c g'>8 r16} <c g'>8 <c g'>16 <c g'>16
 
     \mark \default
 
-    R1*11
+    <b d g>8\mp r16 <b d g>8 r16 <b d g>8 r16 <cis e g>8 r16 <cis e g>8 <cis e g>8
+    \repeat unfold 3 {<d f a>8 r16} <c f a>8 r16 <c f a>8 <c f a>8
+    \repeat unfold 3 {<b d f a>8 r16} <a cis f a>8 r16 <a cis g'>8 <a cis f>8
+    \repeat unfold 3 {<d e f a>8 r16} <c e f a>8 r16 <c e f a>8 <c e f a>8
 
+    \repeat unfold 3 {<b d f>8 r16} <a cis e g>8 r16 <a cis e g>8 <a cis e g>8
+    \repeat unfold 3 {<d f a>8 r16} <c e f a>8 r16 <c e f a>8 <c e f a>8
+    \repeat unfold 4 {<b d f a>8 r16} <b d f a>8 <b d f a>8
+    << { <c e g c>2. r4 } { s2\< s4\! s4 } >>
+
+    <d  a' e'>8\mp r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
+    <d  a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
+    << { <d  a' d>2 r2 } { s4\< s4\! s2 } >>
     \bar "|."
   }
 }

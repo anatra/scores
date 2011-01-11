@@ -52,6 +52,8 @@ accordionOne = \new Staff {
     <f a>1
     <h, d g>2~ <h d g>8-. r8 r4
 
+    \mark \default
+
     <e a c>1
     <g h d>2. g4
     <e' g>2 <d f>4 <c e>8 <h d>8~

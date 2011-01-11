@@ -1,5 +1,5 @@
 \include "src/header.ly"
-#(set-global-staff-size 18)
+#(set-global-staff-size 15)
 
 \include "src/settings.ly"
 \include "src/accordion.ly"
@@ -23,6 +23,10 @@
           \accordionThree
           \accordionBass
         >>
+      >>
+
+      \new StaffGroup <<
+        \guitar
       >>
 
       \new StaffGroup <<

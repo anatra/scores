@@ -1,4 +1,5 @@
 accordionThree = \new Staff {
+  \set midiInstrument = #"Accordion"
   \tag #'part \defaultTempo
   \defaultKey
   \defaultTime

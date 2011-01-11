@@ -1,4 +1,5 @@
 accordionTwo = \new Staff {
+  \set midiInstrument = #"Accordion"
   \tag #'score \set Staff.instrumentName = "Accordion 2"
   \tag #'part \defaultTempo
   \defaultKey

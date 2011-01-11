@@ -11,22 +11,30 @@
 \include "src/cello_two.ly"
 \include "src/guitar.ly"
 
-{
-  \set Score.markFormatter = #format-mark-box-numbers
-  \new StaffGroup <<
-    \accordionOne
-    \accordionTwo
-    \new PianoStaff <<
-      \set PianoStaff.instrumentName = #"Accordion 3"
-      \accordionThree
-      \accordionBass
+\score {
+  \new Score {
+    \set Score.markFormatter = #format-mark-box-numbers
+    \new GrandStaff <<
+      \new StaffGroup <<
+          \accordionOne
+          \accordionTwo
+        \new PianoStaff <<
+          \set PianoStaff.instrumentName = #"Accordion 2"
+          \accordionThree
+          \accordionBass
+        >>
+      >>
+
+      \new StaffGroup <<
+          \celloOne
+          \celloTwo
+      >>
     >>
-    \guitar
-    \celloOne
-    \celloTwo
-  >>
+  }
+  \include "src/layout.ly"
+  \midi {}
 }
 \paper {
   system-separator-markup = \slashSeparator
+  indent = 25
 }
-\include "src/layout.ly"

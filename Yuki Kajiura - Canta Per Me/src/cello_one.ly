@@ -1,4 +1,5 @@
 celloOne = \new Staff {
+  \set midiInstrument = #"Cello"
   \tag #'score \set Staff.instrumentName = "Cello 1"
   \tag #'part \defaultTempo
   \defaultKey

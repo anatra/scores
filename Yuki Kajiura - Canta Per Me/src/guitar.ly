@@ -6,7 +6,7 @@ accF = \markup { F }
 accA = \markup { A } 
 
 guitar = \new RhythmicStaff {
-  \tag #'score \set Staff.instrumentName = "Guitar"
+  \tag #'score \set Staff.instrumentName = "guitar"
   \tag #'part \defaultTempo
   \defaultKey
   \defaultTime

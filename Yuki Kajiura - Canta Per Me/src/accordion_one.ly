@@ -10,7 +10,7 @@ accordionOne = \new Staff {
     \mark \default
 
     a4\accViolin\mp\( a8 a g4. a8
-    g4 f~f\( a\(
+    g4 f~f\) a\(
     a g~g\) e\(
     e f2~f16\) b32\(\< c d e f g
 
@@ -40,24 +40,24 @@ accordionOne = \new Staff {
     
     r8\p\accViolin d16 <f a>8  r8. d16  <f a>8  r16 <d a'>8 <f a>8
     r8 b,16 <f' a>8 r8. b,16 <f' a>8 r16 <b, d>8 <f' a>8
-    r8 c16  <f a>8  r8. c16  <f a>8  r16 <e g>8  <f a>8
+    r8 c16  <e g>8  r8. c16  <e g>8  r16 <e g>8  <f a>8
     r8 d16  <f a>8  r8. d16  <f a>8  r16 <f a>8\( <e g>16 <d f>16
 
     <e a>8\)    r8. d16 <e a>8 r8. d16 <e a>8 f16\(  d
-    <b f' a>8\) r8. d16 <f a>8 r8. d16 <f a>8 b,16\( d
+    <b f' a>8\) r8. b16 <d f>8 r8. b16 <d f>8 b16\( d
     c8\)        r8. c16 <e g>8 r8. c16 <e g>8\( <e g>16 <f a>16
     <c f a>8\)  r8. c16 <f a>8 r8. c16 <f a>8 <f a>8
 
     \mark \default
 
-    r8\mp r8. <b d>16 <b d g>8 r8. <cis e>16 <cis g'>8 <cis a'>16~\(<cis e>16
+    g8\mp r8. <b d>16 <b d g>8 r8. <cis e>16 <cis g'>8 <cis a'>16~\(<cis e>16
     <d f>8\) r8. <d f>16 <f a>8 r8. <c f>16 <f a>8 <c e>16\( <d f>16
     <b d g>8\) r8. <b d>16 <b d g>8 r8. <cis e>16 <cis g'>8 <cis a'>16~\(<cis e>16
     <d f>8\) r8. <d f>16 <f a>8 r8. <c f>16 <f a>8 <c e>16\( <d f>16
 
     <b d g>8\) r8. <b d>16 <b d g>8 r8. <cis e>16 <cis g'>8 <cis a'>16~\(<cis e>16
-    <d f>8\) r8. <d f>16 <f a>8 r8. <c f>16 <f a>8 g16\( e16
-    <b d>8\) r8. <b d>16 <d f>8 r8. <b d>16 <d f>8 <b d>16\(~ <b f'>16
+    <d f>8\) r8. <d f>16 <f a>8 r8. <c f>16 <f a>8 g16\( f16
+    <b, d>8\) r8. <b d>16 <d f>8 r8. <b d>16 <d f>8 <b d>16\(~ <b f'>16
     << { <c g'>2.\) r4 } { s2\< s4\! s4 } >>
 
     \mark \default
@@ -81,8 +81,8 @@ accordionOne = \new Staff {
 
     \repeat unfold 3 {<b d f>8 r16} <a cis e g>8 r16 <a cis e g>8 <a cis e g>8
     \repeat unfold 3 {<d f a>8 r16} <c e f a>8 r16 <c e f a>8 <c e f a>8
-    \repeat unfold 4 {<b d f a>8 r16} <b d f a>8 <b d f a>8
-    << { <c e g c>2. r4 } { s2\< s4\! s4 } >>
+    \repeat unfold 4 {<b d f>8 r16} <b f'>8\< <b f'>8
+    << { <c g'>2. r4 } { s2\!\> s4\! s4 } >>
 
     <d  a' e'>8\mp r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
     <d  a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8

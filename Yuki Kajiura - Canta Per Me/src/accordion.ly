@@ -1,8 +1,8 @@
 discant = \markup {
-  \musicglyph #"accordion.accDiscant"
+  \musicglyph #"accordion.discant"
 }
 dot = \markup {
-  \musicglyph #"accordion.accDot"
+  \musicglyph #"accordion.dot"
 }
 
 \layout { ragged-right = ##t }

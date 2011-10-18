@@ -78,7 +78,7 @@ celloTwo = \new Staff {
     \ottava #1
     \set Staff.ottavation = #"8"
     r8 g'\mf~g8. f16 e8. e16~ \times 2/3 {e8 f g}
-    a8.~ g8 f e16 e8. d8 c a16
+    a8. g8 f e16 e8. d8 c a16
     b4. a8 \grace { b8[ a8]} g8. f8 e8 d16
     d4.\mp c16. f32 d4 \times 2/3 {a'8\< b c}
 

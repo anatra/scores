@@ -40,14 +40,14 @@ accordionTwo = \new Staff {
     \mark \default
 
     <e, a>8\p   r8. d16 <e a>8 r8. d16 <e a>8 f16\(  d
-    <b f' a>8\) r8. d16 <f a>8 r8. d16 <f a>8 b,16\( d
-    c8\)        r8. c16 <f a>8 r8. c16 <f a>8 d16\(  f
+    <b f' a>8\) r8. b16 <d f>8 r8. b16 <d f>8 b16\( d
+    c8\)        r8. c16 <f a>8 r8. c16 <e g>8 d16\(  f
     <e a>8\)    r8. d16 <e a>8 r8. d16 <e a>8 <f a>8
     
     r8 d16\p <f a>8  r8. d16  <f a>8  r16 <d a'>8 <f a>8
     r8 b,16  <f' a>8 r8. b,16 <f' a>8 r16 <b, d>8 <f' a>8
     r8 c16   <f a>8  r8. c16  <f a>8  r16 <e g>8  <f a>8
-    r8 c16   <f a>8  r8. c16  <f a>8  r16 <f a>8 <c e>16\( <d f>16
+    r8 c16   <e g>8  r8. c16  <e g>8  r8. <c e>16\( <d f>16
 
     \mark \default
 
@@ -88,7 +88,7 @@ accordionTwo = \new Staff {
     e8\mp e16 e8 e16 e8 e16 e8 e16 e8 e8
     e8 e16 e8 e16 e8 e16 e8 e16 e8 e8
 
-    << { d2\) r2 } { s4\< s4\! s2 } >>
+    << { d2 r2 } { s8.\< s16\> s2\! } >>
     \bar "|."
   } 
 }

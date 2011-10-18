@@ -1,72 +1,81 @@
-voiceSoprano =  \relative c {
+voiceSoprano =  \relative c'' {
     
-    \mark \default
+  \defaultTempo
+  \defaultTime
+  \defaultKey
 
-    e''4 e8. d16 e4 g4
-    f4 d4 e2
-    c4 c8. h16 c4 e4
-    d2 h2
+  \partial 4 r4
+  R1*4
 
-    e4 e8. d16 e4 g4
-    f4 d4 e2
-    c4 c8. h16 c4 e4
-    d2 c4. e8
+  \tag #'part {\mark \default}
 
-    \mark \default
-    \bTempo
+  cis4 cis8. h16 cis4 e4
+  d4 h4 cis2
+  a4 a8. gis16 a4 cis4
+  h2 gis2
 
-    e4 e4 e4. e8
-    d4 d4 e4.( d8)
-    c8( h) a h c4 e4
-    d4( d8 e8) d4. e8
-    f4 f4 d4. h8
-    b4 b4 des4. des8
-    d4 e4 f4 a4
-    g2 g2
+  
+  cis4 cis8. h16 cis4 e4
+  d4 h4 cis2
+  a4 a8. gis16 a4 cis4
+  h2 a4. cis8
 
-    \mark \default
+  \tag #'part {\mark \default}
 
-    R1*3
+  cis4 cis4 cis4. cis8
+  h4 h4 cis4.( h8)
+  a8( gis) fis gis a4 cis4
+  h4( h8  cis8) h4. cis8
 
-    r2 r4. g,8
-    a4 h c a
-    h c d4. h8
-    c4 d e f
-    g2 g2
+  d4 d4 h4. gis8
+  g4 g4 b4. b8
+  h4 cis4 d4 fis4
+  e2 e2
 
-    \mark \default
-    \bKey
-    \aTempo
+  \tag #'part {\mark \default}
 
-    g4 g8. f16 es4 c4
-    es4 f4 es2
-    es4 es8. d16 es4 f4
-    d2 g2
+  R1*3
 
-    g4 g8. f16 es4 c4
-    c4 h4 c4. \tag #'score {d8} \tag #'part {d8^\markup{rit.}}
-    es8( d) c( es) d( c) b( d)
-    c2 c2
+  r2 r4. e,8
+  fis4 gis a fis
+  gis a h4. gis8
+  a4 h cis d
+  e2 e2
 
-    \bar "|."
-  } 
+  \tag #'part {\mark \default}
+  R1*8
+
+  \tag #'part {\mark \default}
+
+  e4 e8. d16 cis4 a4
+  a4 h cis2
+  cis4 cis8. h16 cis4 d4
+  h2 e2
+
+  e4 e8. d16 cis4 a4
+  a4 gis4 a4. \tag #'score {h8} \tag #'part {h8^\markup{rit.}}
+  c8( h) a( c) h4 g4
+  a2 a2
+
+  \bar "|."
+} 
 
 textSoprano = \lyricmode {
-Щьвят за -- во -- йо -- вал вель -- ки круль
-И пхнол го сто -- пон в_пы -- шэ
-А и -- ме е -- го сла -- вы длонь
-На чо -- ле гвяз -- ды пи -- шэ.
+  Щьвят за -- во -- йо -- вал вель -- ки круль
+  И пхнол го сто -- пон в_пы -- шэ
+  А и -- ме е -- го сла -- вы длонь
+  На чо -- ле гвяз -- ды пи -- шэ.
 
-И щьве -- чи гвяз -- да век и два,
-Же -- мя ще в_джи -- ве ко -- жи,
-А и -- ме кру -- ля жу -- ца бляск
-Од зо -- жы аж до зо -- жы. 
+  И щьве -- чи гвяз -- да век и два,
+  Же -- мя ще в_джи -- ве ко -- жи,
+  А и -- ме кру -- ля жу -- ца бляск
+  Од зо -- жы аж до зо -- жы. 
 
-А и -- ме кру -- ля з_Бо -- жых нив
-Среб -- жыс -- тым всхо -- джи  квя -- тэм.
+  А и -- ме кру -- ля з_Бо -- жых нив
+  Среб -- жыс -- тым всхо -- джи  квя -- тэм.
 
-Лэч пшы -- шэдл Ла -- заж; тэн мял кощьчь,
-Вы -- дар -- тон псу до яд -- ла,
-И паль -- цем вска -- зал и -- ме то,
-И гвя -- зда  з_не -- ба спа -- дла.
+  Лэч пшы -- шэдл Ла -- заж; тэн мял кощьчь,
+  Вы -- дар -- тон псу до яд -- ла,
+  И паль -- цем вска -- зал и -- ме то,
+  И гвя -- зда  з_не -- ба спа -- дла.
 }

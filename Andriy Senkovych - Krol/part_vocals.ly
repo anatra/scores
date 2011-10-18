@@ -15,22 +15,16 @@
   <<
     \new ChordNames {
       \set chordChanges = ##t
-      \harmony
+      \transpose c a, \removeWithTag #'part \harmony
     }
     \new Staff <<
-      \set Staff.midiInstrument = "choir aahs"
+%      \set Staff.midiInstrument = "choir aahs"
       \new Voice = "soprano" { 
-        \defaultTempo
-        \defaultTime
-        \defaultKey
         \voiceOne \removeWithTag #'score \voiceSoprano
       }
       \new Lyrics \lyricsto "soprano" \textSoprano
 
       \new Voice = "mezzosoprano" { 
-        \defaultTempo
-        \defaultTime
-        \defaultKey
        \voiceTwo \removeWithTag #'part \voiceMezzoSoprano 
       }
       \new Lyrics \lyricsto "mezzosoprano" \textMezzoSoprano

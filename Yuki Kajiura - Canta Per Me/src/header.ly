@@ -6,6 +6,6 @@
 	title = "Canta per me"
 	subsubtitle = "Заспівай мені"
 	copyright = ""
-	arranger = ""
+	arranger = "Andriy Senkovych"
 	tagline = ""
 }

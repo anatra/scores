@@ -71,7 +71,7 @@
       \new StaffGroup <<
         \new Staff <<
           \set Staff.instrumentName = #"Guitar"
-          %\set Staff.midiInstrument = "guitar"
+          \set Staff.midiInstrument = "acoustic guitar (nylon)"
           \removeWithTag #'part \guitar
         >>
       >>

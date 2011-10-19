@@ -3,6 +3,7 @@ celloOne = \relative c' {
   \defaultTempo
   \defaultTime
   \defaultKey
+  \clef bass
 
   %g4 g8. g16 g4 d8. d16
   %dis4 h4 e4 d4

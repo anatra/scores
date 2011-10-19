@@ -3,6 +3,7 @@ celloTwo = \relative c {
   \defaultTempo
   \defaultTime
   \defaultKey
+  \clef bass
 
   \partial 4 r4
 

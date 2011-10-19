@@ -1,14 +1,26 @@
 \include "src/header.ly"
+\include "src/settings.ly"
+\include "src/cello.ly"
 
 \header {
     instrument = "Cello"
 }
 
-\include "src/settings.ly"
-\include "src/cello.ly"
-
-{
+\score {
+  \new Score {
   \set Score.markFormatter = #format-mark-box-numbers
-  \keepWithTag #'part \cello
+  <<
+    \new Staff <<
+      \set Staff.midiInstrument = "cello"
+      \removeWithTag #'score \cello
+    >>
+  >>
+  }
+  \layout {
+    \include "src/layout.ly"
+  }
+  \midi{}
 }
-\include "src/layout.ly"
+\paper {
+  indent = 25
+}

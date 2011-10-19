@@ -1,20 +1,28 @@
 \include "src/header.ly"
+\include "src/settings.ly"
+\include "src/accordion_two.ly"
+\include "src/accordion_bass.ly"
 
 \header {
   instrument = "Accordion 2"
 }
 
-\include "src/settings.ly"
-\include "src/accordion_two.ly"
-\include "src/accordion_bass.ly"
-
-
-{
+\score {
+  \new Score {
   \set Score.markFormatter = #format-mark-box-numbers
-  \new PianoStaff 
   <<
-    \keepWithTag #'part \accordionTwo
-    \keepWithTag #'part \accordionBass
+    \new PianoStaff <<
+      \set PianoStaff.midiInstrument = "accordion"
+      \removeWithTag #'score \accordionTwo
+      \removeWithTag #'score \accordionBass
+    >>
   >>
+  }
+  \layout {
+    \include "src/layout.ly"
+  }
+  \midi{}
 }
-\include "src/layout.ly"
+\paper {
+  indent = 25
+}

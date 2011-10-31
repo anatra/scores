@@ -17,7 +17,7 @@ accordionThreeSolo = \relative c' {
   es4 fes es des ces des
   es1 fes2
   f2.\<\( es4\) d2
-  d4 e d e d e\!
+  des4 e des e des e\!
 
   c8-.\f c-. r\> c-. c-. c-. r c-. b-. b-. r b-.
   as8-. as-. r as-. as-. as-. r as-. as-. as-. r\! as-.
@@ -26,7 +26,7 @@ accordionThreeSolo = \relative c' {
 
   \tag #'part {\mark \default}
 
-  s1.*6
+  R1.*6
   e'8-.\mf\< e-. r e-. e-. e-. r e-. e-. e-. r e-.
   e8-. e-. r e-. e-. e-. r e-. e-.\! e-. r\f e-.
   % another way - cis8-. cis-. r cis-. cis-. cis-. r cis-. cis-.\! cis-. r\f cis-.
@@ -35,7 +35,7 @@ accordionThreeSolo = \relative c' {
   \bKey
 
   fis4-> r4 r1
-  s1.*5
+  R1.*5
 
   c1 des2
   c4 des c b as b

@@ -28,10 +28,11 @@ guitar = \relative c' {
   d8-.\< d-. r d-. d-. d-. r d-. d-. d-. r d-.
   des8-. des-. r des-. b-. b-. r b-. c-. b-. as-.\! g-.
 
-  s1.*4
+  f4 r4 r1
+  R1.*3
   \tag #'part { \mark \default }
 
-  s1.*1
+  R1.*1
   f''4\mp c8-. f8-. as4 as,8-. c8-. f4 des8-. f8-.
   as,4-> r4 r1
   es'4 b8-. es8-. ges4 ges,8-. b8-. es4 ces8-. es8-.
@@ -46,11 +47,24 @@ guitar = \relative c' {
   h4-> r4 r1
   R1.*5
 
-  s1.*7
+  <f as c>1 <ges b des>2
+  <f as c>1 <des f b>2
+  <f as c>1 <des ges b>2
+  <d f a>1  <d f b>2
+  <d f a>1  <es g b>2
+  <a, d f>2 <d f a>2. <d g b>4
+  <e g b>1 <cis e ais>2
 
   \tag #'part {\mark \default}
 
-  s1.*8
+  <d fis h>4-> r8 h8-. h-. h-. r h-. h-. h-. r h-.
+  fis'8-. fis-. r fis-. fis-. fis-. r fis-. fis-. fis-. r fis-.
+  a8-. a-. r a-. a-. a-. r a-. a-. a-. r a-.
+  e8-. e-. r e-. e-. e-. r e-. e-. e-. r e-.
+  g8-. g-. r g-. g-. g-. r g-. g-. g-. r g-.
+  d8-. d-. r d-. d-. d-. r d-. d-. d-. r d-.
+  f8-. f-. r f-. f-. f-. r f-. f-. f-. r f-.
+  g8-. g-. r g-. g-. g-. r g-. g-. g-. r g-.
 
   \tag #'part {\mark \default}
   \aKey

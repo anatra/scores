@@ -34,6 +34,14 @@
 
       \new StaffGroup <<
         \new Staff <<
+          \set Staff.instrumentName = #"Guitar"
+          \set Staff.midiInstrument = "acoustic guitar (nylon)"
+          \removeWithTag #'part \guitar
+        >>
+      >>
+
+      \new StaffGroup <<
+        \new Staff <<
           \set Staff.instrumentName = #"Cello 1"
           \set Staff.midiInstrument = "cello"
           \removeWithTag #'part \celloOne
@@ -45,13 +53,6 @@
         >>
       >>
 
-      \new StaffGroup <<
-        \new Staff <<
-          \set Staff.instrumentName = #"Guitar"
-          \set Staff.midiInstrument = "acoustic guitar (nylon)"
-          \removeWithTag #'part \guitar
-        >>
-      >>
     >>
   }
   \layout {

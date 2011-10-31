@@ -60,7 +60,7 @@ celloOne = \relative c' {
   d8-.\mf d-. r d-. d-. d-. r d-. d-. d-. r d-.
   d8-. d-. r d-. d-. d-. r d-. d-. d-. d-. d-.
   d8-.\< d-. r d-. d-. d-. r d-. d-. d-. r d-.
-  cis'8-. cis8-. r8 cis8-. cis4 b4 ais8-. ais8-. ais8-.\! ais8-.
+  cis'8-. cis8-. r8 cis8-. cis4 h4 ais8-. ais8-. ais8-.\! ais8-.
 
   \tag #'part {\mark \default}
 

@@ -5,4 +5,5 @@ bin
 *.pdf
 *.midi
 *.zip
-
+*.svg
+*.png

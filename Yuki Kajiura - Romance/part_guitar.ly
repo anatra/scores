@@ -14,6 +14,9 @@
       \set Staff.midiInstrument = "acoustic guitar (nylon)"
       \removeWithTag #'score \guitar
     >>
+    %\new TabStaff <<
+    %  \removeWithTag #'score \transpose a a, \guitar
+    %>>
   >>
   }
   \layout {

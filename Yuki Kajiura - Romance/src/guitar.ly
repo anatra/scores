@@ -1,8 +1,9 @@
 guitar = \relative c' {
-  \introTempo
+  \tag #'part \introTempo
   \defaultKey
   \aTime
-  \mark \default
+
+  \tag #'part \mark \default
 
   \partial 4. e8 a h8
   <a, e' a c>8 <a e' a c> <a e' a c> <a e' a c> d'8 c
@@ -26,7 +27,7 @@ guitar = \relative c' {
   << {a'2.\mordent r4\fermata} \\ {a,2. r4\fermata} >>
   \aTime
 
-  \mark \default
+  \tag #'part \mark \default
 
   r4 r8 e'8 a h
   <a, e' a c>8 <a e' a c> <a e' a c> <a e' a c> d'8 c
@@ -49,16 +50,16 @@ guitar = \relative c' {
   << {\times 2/3 {a8 h c} \times 2/3 {a h c} \times 2/3 {h c h} \times 2/3 {h a g}}
   \\ {d4 d e e,} >>
   << {a'2.\mordent r4\fermata} \\ {a,2. r4\fermata} >>
-  \mark \default
 
-  %\defaultTempo
+  \tag #'part \mark \default
+  \tag #'part \defaultTempo
 
   <a e' a c e a>8->-. r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-.-> r16 <a e' a c e a>16 <a e' a c e a>16 <a e' a c e a>16 <c' e a>8-.-> r8
   <a, e' a c e a>8->-. r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8->-. r8 <e e' a h c e>8 <e e' a h c e>8-> <e e' a h c e>16 <e e' a h c e>16
   <a e' a c e a>8->-. r16 <a e' a c e a>8-. <a e' a c e a>16-. <a e' a c e a>8->-. r16 <a e' a c e a>16 <a e' a c e a>16 <a e' a c e a>16 <c' e a>8->-. r8
   <a, e' a c e a>8->-. r16 <a e' a c e a>8-. <a e' a c e a>16-. <a e' a c e a>8.->-. <a e' a c e a>16-. <a e' a c e a>8-. <a e' a c e a>8->-. <a e' a c e a>16-. <a e' a c e a>16-.
 
-  \mark \default
+  \tag #'part \mark \default
 
   <a e' a c e a>8->-. r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8.-> <a e' a c e a>16 <a e' a c e a>16 <a e' a c e a>16 <a e' a c e a>8-.-> r8
   <h e h' e gis h>8-> r16 <h e h' e gis h>16 <h e h' e gis h>16 <h e h' e gis h>16 <h e h' e gis h>4-> <h e h' e gis h>8-. <h e h' e gis h>8-> <h e h' e gis h>16-. <h e h' e gis h>16-.
@@ -80,7 +81,7 @@ guitar = \relative c' {
   <c g' c e g c>8-> r16 <c g' c e g c>16-. <c g' c e g c>16-. <c g' c e g c>16-. <c g' c e g c>8.-> r16 <c g' c e g c>8-. <c g' c e g c>8->-. <c g' c e g c>8-. 
   <a e' a c e a>8-> r16 <a e' a c e a>16 <a e' a c e a>16 <a e' a c e a>16 <a e' a c e a>4-> <a e' a c e a>8 <a e' a c e a>8-> <a e' a c e a>16 <a e' a c e a>16
 
-  \mark \default
+  \tag #'part \mark \default
 
   <f c' f a c f>8. <f c' f a c f>16 <f c' f a c f>8 <f c' f a c f>8 <f c' f a c f>8 <f c' f a c f>8 <f c' f a c f>8 <f c' f a c f>8
   <e h' e gis h e>8. <e h' e gis h e>16 <e h' e gis h e>8 <e h' e gis h e>8 <e h' e gis h e>8 <e h' e gis h e>8 <e h' e gis h e>8 <e h' e gis h e>8
@@ -91,14 +92,14 @@ guitar = \relative c' {
   <e h' e gis h e>8-. <e h' e gis h e>8\< <e h' e gis h e>8 <e h' e gis h e>16 <e h' e gis h e>16 <e h' e gis h e>8 <e h' e gis h e>16 <e h' e gis h e>16 <e h' e gis h e>8 <e h' e gis h e>16 <e h' e gis h e>16
   <e h' e gis h e>1\f\!
 
-  \mark \default
+  \tag #'part \mark \default
 
   <a e' a c e a>8-.-> r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-.-> <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-.-> <a e' a c e a>16-. <a e' a c e a>16-.
   <a e' a c e a>8-.-> r16 <a e' a c e a>16-. <a e' a c e a>8-. <a e' a c e a>8-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-. <a e' a c e a>4^\markup{gliss.}
   <a e' a c e a>8-.-> r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-.-> <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-. <a e' a c e a>8.-.-> <a e' a c e a>16-.
   <a e' a c e a>8-.-> r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-.-> <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-. <a e' a c e a>8-.-> <a e' a c e a>16-. <a e' a c e a>16-.
 
-  \mark \default
+  \tag #'part \mark \default
 
   \times 2/3 {r4 c'8} \times 2/3 {c h c} \times 2/3 {h a g} \times 2/3 {a g f}
   \times 2/3 {e8 g a} \times 2/3 {g e d} \times 2/3 {e4 c8\mordent} a4
@@ -110,8 +111,59 @@ guitar = \relative c' {
   r8 <d, e>8 <d e> <d e> <d e>8. <c e>8. <h e>8
   <a e'>8. <gis e'>8. <e h' e gis h e>8 <e h' e gis h e>8 <e h' e gis h e>8\< <e h' e gis h e>8 <e h' e gis h e>8
 
-  \mark \default
+  \tag #'part \mark \default
 
   <e a e' a c e>8->\! r16 <e a e' a c e>16-. <e a e' a c e>16-. <e a e' a c e>16-. <e a e' a c e>8-> <e a e' a c e>16-. <e a e' a c e>16-. <e a e' a c e>8-. <e a e' a c e>8-> <e a e' a c e>16-. <e a e' a c e>16-.
+  <e h' e gis h e>8-> r16 <e h' e gis h e>16-. <e h' e gis h e>16-. <e h' e gis h e>16-. <e h' e gis h e>4-> <e h' e gis h e>8-. <e h' e gis h e>8-> <e h' e gis h e>16-. <e h' e gis h e>16-.
+  <a e' a c e a>8->-. r16 <a e' a c e a>8-. <a e' a c e a>16-. <a e' a c e a>8.->-. <a e' a c e a>16-. <a e' a c e a>8-- <a e' a c e a>8->-. <a e' a c e a>16-. <a e' a c e a>16-.
+  <g d' g h d g>8-.-> r16 <g d' g h d g>8-. <g d' g h d g>16-. <g d' g h d g>8--\( <g d' g h d g>16 <g d' g h d g>16 <g d' g h d g>16 <g d' g h d g>16 <g d' g h d g>8-.->\) <g d' g h d g>16-. <g d' g h d g>16-.
+  <f c' f a c f>8->-. r16 <f c' f a c f>8-. <f c' f a c f>16-. <f c' f a c f>8->-. r16 <f c' f a c f>16 <f c' f a c f>16 <f c' f a c f>16 <f c' f a c f>8->-. <f c' f a c f>16-. <f c' f a c f>16-.
+  <e h' e gis h e>8-> r16 <e h' e gis h e>16-. <e h' e gis h e>16-. <e h' e gis h e>16-. <e h' e gis h e>8-> r16 <e h' e gis h e>16 <e h' e gis h e>8 <e h' e gis h e>8->^\markup{G} <e h' e gis h e>16^\markup{G} <e h' e gis h e>16^\markup{G\sharp}
+  <e a e' a c e>8-> <e a e' a c e>16 <e a e' a c e>16-> <e a e' a c e>16 <e a e' a c e>16 <e a e' a c e>8-> <e a e' a c e>16 <e a e' a c e>16 <e a e' a c e>8 <e a e' a c e>8-> <e a e' a c e>16 <e a e' a c e>16
+  <g d' g h d g>8-> r16 <g d' g h d g>16-. <g d' g h d g>16-. <g d' g h d g>16-. <g d' g h d g>8->\( <g d' g h d g>16-. <g d' g h d g>16-. <g d' g h d g>8-. <g d' g h d g>8-> <g d' g h d g>16-. <g d' g h d g>16-.
+  <f c' f a c f>8->-.\) r16 <f c' f a c f>16 <f c' f a c f>16 <f c' f a c f>16 <f c' f a c f>8-> r16 <f c' f a c f>16 <f c' f a c f>8 <f c' f a c f>8 <f c' f a c f>16 <f c' f a c f>16
+  <e h' e gis h e>8-> <e h' e gis h e>16 <e h' e gis h e>16 <e h' e gis h e>16 <e h' e gis h e>16 <e h' e gis h e>8.->-- r16 <e h' e gis h e>8 <e h' e gis h e>8-> <e h' e gis h e>16 <e h' e gis h e>16
+  <e a e' a c e>8.->-- <e a e' a c e>16 <e a e' a c e>8 <e a e' a c e>16 <e a e' a c e>16 <g d' g h d g>8.->-- <g d' g h d g>16 <g d' g h d g>8 <g d' g h d g>16 <g d' g h d g>16
+  <fis a d a' d fis>8-> <fis a d a' d fis>16 <fis a d a' d fis>16 <fis a d a' d fis>16 <fis a d a' d fis>16 <fis a d a' d fis>8. <fis a d a' d fis>16 <fis a d a' d fis>8 <fis a d a' d fis>8-> <fis a d a' d fis>16 <fis a d a' d fis>16
+  <f c' f a c f>8.-> <f c' f a c f>16 <f c' f a c f>8-. <f c' f a c f>8.-> <f c' f a c f>16 <f c' f a c f>8-. <f c' f a c f>4->--
+  <e h' e gis h e>8->\arpeggio r8 r8 <e h' e gis h e>8 <e h' e gis h e>16-> <e h' e gis h e>16 <e h' e gis h e>8 <e h' e gis h e>8 <e h' e gis h e>16 <e h' e gis h e>16
+  <e h' e gis h e>8-> <e h' e gis h e>8\sp\< <e h' e gis h e>8 <e h' e gis h e>8 <e h' e gis h e>8 <e h' e gis h e>8 <e h' e gis h e>8 <e h' e gis h e>8
+  <e h' e gis h e>4\!\mf <e h' e gis h e>4 r8 e'8 a h
+
+  \tag #'part \mark \default
+
+  <a c>4. <a c>4 e'8 d c
+  <gis h>8. <gis h>8. <gis h>8~ <gis h>8 f'8 e d
+  <a c>8. <a c>8. <a c>8~ <a c>8 e'8 d c
+  <gis h>4. <gis h>4 f'8 e\mordent d
+  c8 a f <f a>4 e'8 d c
+  gis8 e h' d4 d8 c h
+  c16 h a e~ e8 c h\mordent a4.
+  h'8 d4.~ d8 e,8 a h
+
+  <a c>4. <a c>4 e'8 d c
+  <gis h>8.-- <gis h e>8.-- <gis h e>8-.-> r8 f'8 e d
+  <e, a c>4.-- <e a c e>8-.-> r8 e'8 d c
+  <e, gis h>8.-- <e gis h e>8.-- <e gis h e>8-.-> r8 f'8 e d
+  c8. <f, a>8. <f a>8~ <f a>8 e'8 d c
+  <g h>8. <g h>8. <g h>8~ <g h>8 h d f
+  f16 e d e~ e8 e8 g, c, h h8
+  a4. g8 <g d' g h d g>8 <g d' g h d g>8 <g d' g h d g>8 <g d' g h d g>8 
+
+  \tag #'part \mark \default
+
+  \arpeggioArrowUp
+  <f c' f a c f>4 <f c' f a c f>8\arpeggio <f c' f a c f>4 <f c' f a c f>8 <f c' f a c f>8 <f c' f a c f>16 <f c' f a c f>16
+  \arpeggioArrowDown
+  <e h' e gis h e>4 <e h' e gis h e>8\arpeggio <e h' e gis h e>4. <e h' e gis h e>4
+  \arpeggioNormal
+  <e a e' a c e>8->\arpeggio <e a e' a c e> <e a e' a c e> <e a e' a c e>8-> <e a e' a c e> <e a e' a c e>8 <e a e' a c e>8-> <e a e' a c e>16 <e a e' a c e>16
+  <fis a d a' d fis>8-> <fis a d a' d fis> <fis a d a' d fis> <fis a d a' d fis>8-> <fis a d a' d fis> <fis a d a' d fis> <fis a d a' d fis>8-.-> r8
+  <f c' f a c f>2\arpeggio \times 2/3 {<d' a' c>4\arpeggio d' e}
+  \times 2/3 {<g,, h d g h e>4\arpeggio f'' g} \times 2/3 {<f,, c' f a c g'>4\arpeggio f'' e}
+  e,,4. <e h' e gis h e>8 <e h' e gis h e> <e h' e gis h e> <e h' e gis h e> <e h' e gis h e>16 <e h' e gis h e>16  
+  <e h' e gis h e>8 <e h' e gis h e>16 <e h' e gis h e> <e h' e gis h e> <e h' e gis h e> <e h' e gis h e>8 <e h' e gis h e> <e h' e gis h e> <e h' e gis h e> <e h' e gis h e>16 <e h' e gis h e>16
+  <e a e' a c e>4-> r4 r2
+
   \bar "|."
 }

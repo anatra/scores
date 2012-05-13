@@ -31,6 +31,5 @@
   \midi{}
 }
 \paper {
-  system-separator-markup = \slashSeparator
   indent = 25
 }

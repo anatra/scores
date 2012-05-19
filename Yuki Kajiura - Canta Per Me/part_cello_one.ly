@@ -7,8 +7,18 @@
 \include "src/settings.ly"
 \include "src/cello_one.ly"
 
-{
-  \set Score.markFormatter = #format-mark-box-numbers
-  \keepWithTag #'part \celloOne
+\score {
+  \new Score {
+    \set Score.markFormatter = #format-mark-box-numbers
+    \new Staff <<
+      \set Staff.midiInstrument = "cello"
+      \keepWithTag #'part \celloOne
+    >>
+  }
+  \layout {
+    \include "src/layout.ly"
+  }
+  \midi {}
 }
-\include "src/layout.ly"
+\paper {
+}

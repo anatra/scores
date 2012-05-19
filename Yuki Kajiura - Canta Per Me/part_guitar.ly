@@ -7,8 +7,18 @@
 \include "src/settings.ly"
 \include "src/guitar.ly"
 
-{
-  \set Score.markFormatter = #format-mark-box-numbers
-  \keepWithTag #'part \guitar
+\score {
+  \new Score {
+    \set Score.markFormatter = #format-mark-box-numbers
+    \new Staff <<
+      \set PianoStaff.midiInstrument = "acoustic guitar (nylon)"
+      \keepWithTag #'part \guitar
+    >>
+  }
+  \layout {
+    \include "src/layout.ly"
+  }
+  \midi {}
 }
-\include "src/layout.ly"
+\paper {
+}

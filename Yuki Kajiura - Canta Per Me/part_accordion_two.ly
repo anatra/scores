@@ -5,16 +5,23 @@
 }
 
 \include "src/settings.ly"
+\include "src/accordion.ly"
 \include "src/accordion_two.ly"
 \include "src/accordion_bass.ly"
 
-
-{
-  \set Score.markFormatter = #format-mark-box-numbers
-  \new PianoStaff 
-  <<
-    \keepWithTag #'part \accordionTwo
-    \keepWithTag #'part \accordionBass
-  >>
+\score {
+  \new Score {
+    \set Score.markFormatter = #format-mark-box-numbers
+    \new PianoStaff <<
+      \set PianoStaff.midiInstrument = "accordion"
+      \keepWithTag #'part \accordionTwoSolo
+      \keepWithTag #'part \accordionBass
+    >>
+  }
+  \layout {
+    \include "src/layout.ly"
+  }
+  \midi {}
 }
-\include "src/layout.ly"
+\paper {
+}

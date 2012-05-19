@@ -8,12 +8,19 @@
 \include "src/accordion_three.ly"
 \include "src/accordion_bass.ly"
 
-{
-  \set Score.markFormatter = #format-mark-box-numbers
-  \new PianoStaff 
-  <<
-    \keepWithTag #'part \accordionThree
-    \keepWithTag #'part \accordionBass
-  >>
+\score {
+  \new Score {
+    \set Score.markFormatter = #format-mark-box-numbers
+    \new PianoStaff <<
+      \set PianoStaff.midiInstrument = "accordion"
+      \keepWithTag #'part \accordionThreeSolo
+      \keepWithTag #'part \accordionBass
+    >>
+  }
+  \layout {
+    \include "src/layout.ly"
+  }
+  \midi {}
 }
-\include "src/layout.ly"
+\paper {
+}

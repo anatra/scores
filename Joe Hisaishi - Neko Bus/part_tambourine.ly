@@ -1,18 +1,18 @@
 \include "src/header.ly"
 
 \header {
-    instrument = "Cello 2"
+    instrument = "Tambourine"
 }
 
 \include "src/settings.ly"
-\include "src/cello_two.ly"
+\include "src/tambourine.ly"
 
 \score {
   \new Score {
     \set Score.markFormatter = #format-mark-box-numbers
-    \new Staff <<
-      \set Staff.midiInstrument = "cello"
-      \keepWithTag #'part \celloTwo
+    \new RhythmicStaff <<
+      \set RhythmicStaff.instrumentName = #"Tambourine"
+      \removeWithTag #'part \tambourine
     >>
   }
   \layout {

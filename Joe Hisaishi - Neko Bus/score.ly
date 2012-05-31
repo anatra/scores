@@ -19,7 +19,8 @@
       \new StaffGroup <<
         \new Staff <<
           \set Staff.instrumentName = #"Accordion 1"
-          \set Staff.midiInstrument = "muted trumpet"
+%          \set Staff.midiInstrument = "muted trumpet"
+          \set Staff.midiInstrument = "accordion"
           \removeWithTag #'score \accordionOneSolo
         >>
 
@@ -31,7 +32,7 @@
 
         \new PianoStaff <<
           \set PianoStaff.instrumentName = #"Accordion 3"
-          \set PianoStaff.midiInstrument = "xylophone"
+          \set PianoStaff.midiInstrument = "accordion"
           \new Staff { \removeWithTag #'part \accordionThreeSolo }
           \new Staff { \removeWithTag #'part \accordionThreeBass }
         >>
@@ -57,9 +58,11 @@
          \new Staff { \removeWithTag #'part \pianoRHand }
       >>
 
-      \new RhythmicStaff <<
-        \set RhythmicStaff.instrumentName = #"Tambourine"
-        \removeWithTag #'part \tambourine
+      \new StaffGroup <<
+        \new RhythmicStaff <<
+          \set RhythmicStaff.instrumentName = #"Tambourine"
+          \removeWithTag #'part \tambourine
+        >>
       >>
     >>
   }

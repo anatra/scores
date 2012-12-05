@@ -3,7 +3,7 @@ celloOne = \relative c' {
   \defaultTempo
   \aTime
   \aKey
-  \clef alto
+  \clef tenor
 
   \tag #'part { \mark \default }
 
@@ -34,7 +34,7 @@ celloOne = \relative c' {
   \tag #'part { \mark \default }
 
   b4->\mp r4 r1
-  \clef alto
+  \clef tenor
   c'4 b c es des b
   ces8-. ces-. r ces-. ces-. ces-. r ces-. ces-. ces-. r ces-.
   b4 as b des h as
@@ -76,7 +76,7 @@ celloOne = \relative c' {
   \tag #'part {\mark \default}
   \aKey
   \aTime
-  \clef alto
+  \clef tenor
 
   c'1
   \repeat unfold 3 {c1}

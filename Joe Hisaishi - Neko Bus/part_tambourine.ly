@@ -12,7 +12,7 @@
     \set Score.markFormatter = #format-mark-box-numbers
     \new RhythmicStaff <<
       \set RhythmicStaff.instrumentName = #"Tambourine"
-      \removeWithTag #'part \tambourine
+      \removeWithTag #'score \tambourine
     >>
   }
   \layout {

@@ -28,6 +28,21 @@ accordionBass = \relative c {
 
   R1*9
 
+  \tag #'part \mark \default
+
+  R1*8
+
+  \tag #'part \mark \default
+
+  R1*9
+
+  \time 2/4
+  R2
+
+  \tag #'part \mark \default
+  \time 4/4
+
+  R1*9
   \bar "|."
 }
 

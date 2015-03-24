@@ -54,8 +54,8 @@ accordionOneSolo = \relative a' {
 
   <b d g>8\) r8. <b d>16 <b d g>8 r8. <cis e>16 <cis g'>8 <cis a'>16~\(<cis e>16
   <d f>8\) r8. <d f>16 <f a>8 r8. <c f>16 <f a>8 g16\( f16
-  <b, d>8\) r8. <b d>16 <d f>8 r8. <b d>16 <d f>8 <b d>16\(~ <b f'>16
-  << { <c g'>2.\) r4 } { s2\< s4\! s4 } >>
+  <b, d>8\)\sp r8. <b d>16-. <d f>8-. r8. <b d>16-. <d f>8-. <b d>16\(~\< <b f'>16
+  << { <c g'>2.\) r4 } { s2 s4\! s4 } >>
 
   \mark \default
   
@@ -84,5 +84,89 @@ accordionOneSolo = \relative a' {
   <d  a' e'>8\mp r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
   <d  a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
   << { <d  a' d>2 r2 } { s4\< s4\! s2 } >>
+  \bar "|."
+}
+
+accordionOneBass = \relative c {
+  \defaultTempo
+  \defaultKey
+  \defaultTime
+  \clef bass
+
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+  b8 b16 b8 b16 b8 b16 b8 b16 b8 b8
+  c8 c16 c8 c16 c8 c16 c8 c16 c8 c8
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+  b8 b16 b8 b16 b8 b16 b8 b16 b8 b8
+  c8 c16 c8 c16 c8 c16 c8 c16 c8 c8
+  f,8 f16 f8 f16 f8 f16 f8 f16 f8 f8
+
+
+  b8 b16 b8 b16 b8 a8 a16 a8 a16 a8
+  d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
+  b8 b16 b8 b16 b8 a8 a16 a8 a16 a8
+  d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
+
+  b8 b16 b8 b16 b8 a8 a16 a8 a16 a8
+  d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
+  b8 b16 b8 b16 b8 b16 b8 b16 b8 b8
+
+  c1
+
+
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+  b8 b16 b8 b16 b8 b16 b8 b16 b8 b8
+  c8 c16 c8 c16 c8 c16 c8 c16 c8 c8
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+  b8 b16 b8 b16 b8 b16 b8 b16 b8 b8
+  c8 c16 c8 c16 c8 c16 c8 c16 c8 c8
+  f,8 f16 f8 f16 f8 f16 f8 f16 f8 f8
+
+  b8 b16 b8 b16 b8 a8 a16 a8 a16 a8
+  d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
+  b8 b16 b8 b16 b8 a8 a16 a8 a16 a8
+  d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
+
+  b8 b16 b8 b16 b8 a8 a16 a8 a16 a8
+  d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
+  b8 b16 b8 b16 b8 b16 b8 b16 b8 b8
+
+  c1
+
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+  b8 b16 b8 b16 b8 b16 b8 b16 b8 b8
+  c8 c16 c8 c16 c8 c16 c8 c16 c8 c8
+
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+  b8 b16 b8 b16 b8 b16 b8 b16 b8 b8
+  c8 c16 c8 c16 c8 c16 c8 c16 c8 c8
+
+  b8 r16 b8 r16 b8 a8 r16 a8 r16 a8
+  d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
+  b8 r16 b8 r16 b8 a8 r16 a8 r16 a8
+  d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
+
+  b8 r16 b8 r16 b8 a8 r16 a8 r16 a8
+  d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
+  b8 r16 b8 r16 b8 r16 b8 r16 b8 b8
+  c1
+
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+
+  R1
+
   \bar "|."
 }

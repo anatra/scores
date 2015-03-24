@@ -83,6 +83,5 @@ accordionBass = \relative c {
   \bar "|."
 }
 
-accordionOneBass = \accordionBass
 accordionTwoBass = \accordionBass
 accordionThreeBass = \accordionBass

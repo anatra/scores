@@ -1,3 +1,4 @@
+#(set-global-staff-size 18)
 \include "src/header.ly"
 
 \header {
@@ -15,7 +16,7 @@
     \new PianoStaff <<
       \set PianoStaff.midiInstrument = "accordion"
       \keepWithTag #'part \accordionTwoSolo
-      \keepWithTag #'part \accordionBass
+      \keepWithTag #'part \accordionTwoBass
     >>
   }
   \layout {

@@ -1,19 +1,18 @@
 \include "src/header.ly"
 
 \header {
-    instrument = "Piano"
+    instrument = "Flute"
 }
 
 \include "src/settings.ly"
-\include "src/piano.ly"
+\include "src/flute.ly"
 
 \score {
   \new Score {
     \set Score.markFormatter = #format-mark-box-numbers
-    \new PianoStaff <<
-      \set PianoStaff.midiInstrument = "acoustic grand"
-      \keepWithTag #'part \pianoLHand
-      \keepWithTag #'part \pianoRHand
+    \new Staff <<
+      \set Staff.midiInstrument = "flute"
+      \keepWithTag #'part \fluteOne
     >>
   }
   \layout {

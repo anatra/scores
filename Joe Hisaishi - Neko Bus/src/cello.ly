@@ -1,8 +1,8 @@
-guitarOne = \relative c' {
+celloOne = \relative c {
   \defaultTempo
   \defaultKey
   \defaultTime
-  \clef treble
+  \clef bass
   \set Score.skipBars = ##t
 
   \tag #'part \mark \default
@@ -23,45 +23,46 @@ guitarOne = \relative c' {
   e,8-. e-. gis-. h-. ais\( h\)-. ais\( h\)-.
   e,8-. e-. gis-. h-. ais\( h\)-. ais\( h\)-.
   a8-. a-. cis-. e-. dis\( e\)-. dis\( e\)-.
-  a,8-. a-. g-. g-. e-. e-. cis-. cis-.
+  a,4 g e cis
 
   \tag #'part \mark \default
 
-  d'4 r4 r2
-  r4 a4-. e-. fis-.
-  d'4-. r4 r2
-  r4 a4-. e-. fis-.
+  d4 r4 r2
+  r4 a'4-.^\markup{\italic pizz.} e-. fis-.
+  d4-. r4 r2
+  r4 a'4-. e-. fis-.
   e4-. r2.
-  r1
-  e'4 e8-. e-. d-. cis4 h8~
-  h8 r2..
+  h''8~^\markup{\italic arco} h4.~ h2
+  e4 e8-. e-. d-. cis4 h8~
+  h8 e,8-. e8-. e8-. e8-. e8-. e8-. e8-.
 
   \tag #'part \mark \default
 
-  a4 <a' cis e>2 <a cis e>8 r8
-  a,4 <a' cis e>2 <a cis e>8 r8
-  e,4 <gis' h d>2 <gis h d>8 r8
-  e,4 <gis' h d>2 <gis h d>8 r8
-  e,4 <gis' h d>2 <gis h d>8 r8
-  e,4 <gis' h d>2 <gis h d>8 r8
-  a,4 <a' cis e>2 <a cis e>8 r8
-  a,4 <a' cis e>2 <a cis e>8 r8
+  <e a>1~
+  <e a>1
+  <e h'>1~
+  <e h'>1
+
+  <e h'>1~
+  <e h'>1
+  <e a>1~
+  <e a>1
 
   \tag #'part \mark \default
 
   d,4 r4 r2
-  r4 a4-. e-. fis-.
-  d'4-. r4 r2
-  r4 a4-. e-. fis-.
+  r4 a'4-.^\markup{\italic pizz.} e-. fis-.
+  d4-. r4 r2
+  r4 a'4-. e-. fis-.
   e4-. r2.
-  r1
-  e'4 e8-. e-. d-. cis4 h8~
-  h8 r8 r4 e,8-. e8-. e8-. e8-.
+  h''8~^\markup{\italic arco} h4.~ h2
+  e4 e8-. e-. d-. cis4 h8~
+  h8 e,8-. e8-. e8-. e8-. e8-. e8-. e8-.
 
-  <h' fis' h d fis>8-.-> r4 <h fis' h d fis>8-.-> r4 <h fis' h d fis>8-.-> r8
+  h8-.-> r4 h8-.-> r4 h8-.-> r8
 
   \time 2/4
-  r8 <e, h' e gis h e>8-.-> <e h' e gis h e>8-.-> <e h' e gis h e>8-.-> 
+  r8 e,8-.-> e8-.-> e8-.->
 
   \tag #'part \mark \default
   \time 4/4
@@ -71,37 +72,37 @@ guitarOne = \relative c' {
   e,8-. e-. gis-. h-. ais\( h\)-. ais\( h\)-.
   a8-. a-. cis-. e-. dis\( e\)-. dis\( e\)-.
   a,8-. a-. cis-. e-. dis\( e\)-. dis\( e\)-.
-  d8-. d-. fis-. a-. gis\( a\)-. gis\( a\)-.
-  e8-. r4. e,2
-  dis'8\( e\)-. e-. dis8\( e\)-. e-. dis8\( e\)-. 
+  d,8-. d-. fis-. a-. gis\( a\)-. gis\( a\)-.
+  e8-. r4. e2
+  dis8\( e\)-. e-. dis8\( e\)-. e-. dis8\( e\)-. 
   dis8\( e\)-. e-. dis8\( e\)-. e-. dis8\( e\)-. 
 
   \tag #'part \mark \default
 
-  a,8-. a-. cis-. e-. dis\( e\)-. dis\( e\)-.
+  a8-. a-. cis-. e-. dis\( e\)-. dis\( e\)-.
   a,8-. a-. cis-. e-. dis\( e\)-. dis\( e\)-.
   e,8-. e-. gis-. h-. ais\( h\)-. ais\( h\)-.
   e,8-. e-. gis-. h-. ais\( h\)-. ais\( h\)-.
   e,8-. e-. gis-. h-. ais\( h\)-. ais\( h\)-.
   e,8-. e-. gis-. h-. ais\( h\)-. ais\( h\)-.
   a8-. a-. cis-. e-. dis\( e\)-. dis\( e\)-.
-  a,8-. a-. g-. g-. e-. e-. cis-. cis-.
+  a,8-. a-. cis-. e-. dis\( e\)-. dis\( e\)-.
 
   \tag #'part \mark \default
 
-  d'4 r4 r2
-  r4 a4-. e-. fis-.
-  d'4-. r4 r2
-  r4 a4-. e-. fis-.
+  d,4 r4 r2
+  r4 a'4-.^\markup{\italic pizz.} e-. fis-.
+  d4-. r4 r2
+  r4 a'4-. e-. fis-.
   e4-. r2.
-  r1
-  e'4 e8-. e-. d-. cis4 h8~
-  h8 r8 r4 e,8-. e8-. e8-. e8-.
+  h''8~^\markup{\italic arco} h4.~ h2
+  e4 e8-. e-. d-. cis4 h8~
+  h8 e,8-. e8-. e8-. e8-. e8-. e8-. e8-.
 
-  <h' fis' h d fis>8-.-> r4 <h fis' h d fis>8-.-> r4 <h fis' h d fis>8-.-> r8
+  h8-.-> r4 h8-.-> r4 h8-.-> r8
 
   \time 2/4
-  r8 <e, h' e gis h e>8-.-> <e h' e gis h e>8-.-> <e h' e gis h e>8-.-> 
+  r8 e,8-.-> e8-.-> e8-.->
 
   \tag #'part \mark \default
   \time 4/4
@@ -111,8 +112,9 @@ guitarOne = \relative c' {
   e,8-. e-. gis-. h-. ais\( h\)-. ais\( h\)-.
   a8-. a-. cis-. e-. dis\( e\)-. dis\( e\)-.
   a,8-. a-. cis-. e-. dis\( e\)-. dis\( e\)-.
-  d8-. d-. fis-. a-. gis\( a\)-. gis\( a\)-.
-  e8-. r4. e,2
+  d,8-. d-. fis-. a-. gis\( a\)-. gis\( a\)-.
+  e8-. r4. e2
+
   dis'8\( e\)-. e-. dis8\( e\)-. e-. dis8\( e\)-. 
   a,4 r2.
 

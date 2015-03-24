@@ -6,6 +6,6 @@
 	title = "Neko Bus"
 	subsubtitle = "Котобус"
 	copyright = ""
-	arranger = "Andriy Senkovych"
+	arranger = ""
 	tagline = ""
 }

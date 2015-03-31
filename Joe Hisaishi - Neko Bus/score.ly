@@ -1,5 +1,5 @@
 \include "src/header.ly"
- #(set-global-staff-size 18)
+ #(set-global-staff-size 17)
 
 \include "src/settings.ly"
 \include "src/accordion.ly"
@@ -58,7 +58,7 @@
           \removeWithTag #'part \violinOne
         >>
         \new Staff <<
-          \set Staff.instrumentName = #"Cello 1"
+          \set Staff.instrumentName = #"Cello"
           \set Staff.midiInstrument = "cello"
           \removeWithTag #'part \celloOne
         >>

@@ -7,6 +7,8 @@
 \include "src/accordion_two.ly"
 \include "src/accordion_three.ly"
 \include "src/accordion_bass.ly"
+\include "src/flute.ly"
+\include "src/violin.ly"
 \include "src/cello_one.ly"
 \include "src/cello_two.ly"
 \include "src/guitar.ly"
@@ -16,35 +18,35 @@
     \set Score.markFormatter = #format-mark-box-numbers
     \new GrandStaff <<
       \new StaffGroup <<
+        \new Staff <<
+          \set Staff.instrumentName = #"Flute"
+          \set Staff.midiInstrument = "flute"
+          \removeWithTag #'score \fluteOne
+        >>
+
         \new PianoStaff <<
           \set PianoStaff.instrumentName = #"Accordion 1"
           \set PianoStaff.midiInstrument = "accordion"
-          \removeWithTag #'score \accordionOneSolo
-          \removeWithTag #'score \accordionOneBass
-        >>
-
-        \new Staff <<
-          \set Staff.instrumentName = #"Accordion 2"
-          \set Staff.midiInstrument = "accordion"
-          \removeWithTag #'part \accordionTwoSolo
+          \removeWithTag #'part \accordionOneSolo
+          \removeWithTag #'part \accordionOneBass
         >>
 
         \new PianoStaff <<
-          \set PianoStaff.instrumentName = #"Accordion 3"
+          \set PianoStaff.instrumentName = #"Accordion 2"
           \set PianoStaff.midiInstrument = "accordion"
-          \removeWithTag #'part \accordionThreeSolo
+          \removeWithTag #'part \accordionTwoSolo
           \removeWithTag #'part \accordionThreeBass
         >>
       >>
 
       \new StaffGroup <<
         \new Staff <<
-          \set Staff.instrumentName = #"Cello 1"
-          \set Staff.midiInstrument = "cello"
-          \removeWithTag #'part \celloOne
+          \set Staff.instrumentName = #"Violin"
+          \set Staff.midiInstrument = "violin"
+          \removeWithTag #'part \violinOne
         >>
         \new Staff <<
-          \set Staff.instrumentName = #"Cello 2"
+          \set Staff.instrumentName = #"Cello"
           \set Staff.midiInstrument = "cello"
           \removeWithTag #'part \celloTwo
         >>

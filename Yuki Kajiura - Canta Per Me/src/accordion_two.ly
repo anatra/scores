@@ -1,26 +1,26 @@
-accordionTwoSolo = \relative c' {
+accordionTwoSolo = \relative a' {
   \defaultTempo
   \defaultKey
   \defaultTime
 
-  e8\mf e16 e8 e16 e8 e16 e8 e16 e8 e8
-  e8 e16 e8 e16 e8 e16 e8 e16 e8 e8
+  <d, a' e'>8\accViolin\mf r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
+  <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
 
   \mark \default
 
-  e8\mp r16 e8 r16 e8 r16 e8 r16 e8 e8
-  d8 r16 d8 r16 d8 r16 d8 r16 d8 d8
-  e8 r16 e8 r16 e8 r16 e8 r16 e8 e8
-  e8 r16 e8 r16 e8 r16 e8 r16 e8 e8
+  <d a' e'>8\mp r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
+  <b d f>8 r16 <b d f>8 r16 <b d f>8 r16 <b d f>8 r16 <b d f>8 <b d f>8
+  <c e g>8 r16 <c e g>8 r16 <c e g>8 r16 <c e g>8 r16 <c e g>8 <c e g>8
+  <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
 
-  e8 r16 e8 r16 e8 r16 e8 r16 e8 e8
-  d8 r16 d8 r16 d8 r16 d8 r16 d8 d8
-  e8 r16 e8 r16 e8 r16 e8 r16 e8 e8
-  a8 r16 a8 r16 a8 r16 a8 r16 a8 a8
+  <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 r16 <d a' e'>8 <d a' e'>8
+  <b d f>8 r16 <b d f>8 r16 <b d f>8 r16 <b d f>8 r16 <b d f>8 <b d f>8
+  <c e g>8 r16 <c e g>8 r16 <c e g>8 r16 <c e g>8 r16 <c e g>8 <c e g>8
+  <c f a>8 r16 <c f a>8 r16 <c f a>8 r16 <c f a>8 r16 <c f a>8 <c f a>8
 
   \mark \default
 
-  d,2\mp cis
+  d2\mp cis
   d c
   b a
   d c

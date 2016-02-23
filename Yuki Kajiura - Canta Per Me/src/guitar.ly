@@ -1,103 +1,136 @@
-accDm = \markup { Dm }
-accGm = \markup { Gm } 
-accB = \markup { B }
-accC = \markup { C }
-accF = \markup { F }
-accA = \markup { A } 
+guitarChords = \chordmode {
+  \germanChords
+  d1:m~
+  d1:m~
 
-guitar = \relative c {
+  \mark\default
+
+  d1:m | b1 | c1 | d1:m~ |
+  d1:m | b1 | c1 | f1 |
+
+  \mark\default
+
+  g2:m a2 | d2:m c2 | g2:m a2 | d2:m c2 |
+  g2:m a2 | d2:m c2 | b1 | c1 |
+
+  \mark\default
+
+  d1:m~
+  d1:m~
+
+  \mark\default
+
+  d1:m | b1 | c1 | d1:m~ |
+  d1:m | b1 | c1 | f1 |
+
+  \mark\default
+
+  g2:m a2 | d2:m c2 | g2:m a2 | d2:m c2 |
+  g2:m a2 | d2:m c2 | b1 | c1 |
+
+  \mark\default
+
+  d1:m~ | d1:m | b1 | c1 |
+  d1:m~ | d1:m | b1 | c1 |
+  
+  \mark \default
+
+  g2:m a2 | d2:m c2 | g2:m a2 | d2:m c2 |
+  g2:m a2 | d2:m c2 | b1 | c1 |
+
+  d1:m~ | d1:m~ | d1:m
+  \bar "|."
+}
+
+guitar = \relative c' {
   \defaultTempo
   \defaultKey
   \defaultTime
-  d16->^\markup{\italic mute}^\accDm\mp d d d-> d d d-> d d d-> d d d8-> d->
+  \override Glissando #'style = #'trill
+  d16->^\markup{\italic mute}\mp d d d-> d d d-> d d d-> d d d8-> d->
   d16-> d d d-> d d d-> d d d-> d d d8-> d->
 
   \mark \default
 
   d8->\mp d16 d8-> d16 d8-> d16 d8-> d16 d8-> d8->
-  b8->^\accB b16 b8-> b16 b8-> b16 b8-> b16 b8-> b8->
-  c8->^\accC c16 c8-> c16 c8-> c16 c8-> c16 c8-> c8->
-  d8->^\accDm d16 d8-> d16 d8-> d16 d8-> d16 d32-> d32 d16 d8->
+  b8-> b16 b8-> b16 b8-> b16 b8-> b16 b8-> b8->
+  c8-> c16 c8-> c16 c8-> c16 c8-> c16 c8-> c8->
+  d8-> d16 d8-> d16 d8-> d16 d8-> d16 d32-> d32 d16 d8->
 
   d8-> d16 d8-> d16 d8-> d16 d8-> d16 d8-> d8->
-  b8->^\accB b16 b8-> b16 b8-> b16 b8-> b16 b32-> b32 b16 b16-> b16
-  c8->^\accC c16 c8-> c16 c8-> c16 c8-> c16 c8-> c8->
-  f8->^\accF f16 f8-> f16 f8-> f16 f8-> f16 f8-> f8->
+  b8-> b16 b8-> b16 b8-> b16 b8-> b16 b32-> b32 b16 b16-> b16
+  c8-> c16 c8-> c16 c8-> c16 c8-> c16 c8-> c8->
+  f,8-> f16 f8-> f16 f8-> f16 f8-> f16 f8-> f8->
 
   \mark \default
 
-  g8->^\accGm   g16 g8-> g16 g8-> 
-    a16->^\accA\< a16 a a a16 a16 a8->^\markup{ \italic gliss. }
-  d8->^\accDm\! d16 d8-> d16 d8-> c32->^\accC c32 c16 c c-> c16 c16 c8->
-  g8->^\accGm   g16 g8-> g16 g8-> a8->^\accA a16 a8-> a16 a8->
-  d8->^\accDm   d16 d8-> d16 d8-> c16->^\accC c c c16 c c c8-> 
+  g8->   g16 g8-> g16 g8-> a16->\< a16 a a a16 a16 a8->\glissando
+  d8->\! d16 d8-> d16 d8-> c32-> c32 c16 c c-> c16 c16 c8->
+  g8->   g16 g8-> g16 g8-> a8-> a16 a8-> a16 a8->
+  d8->   d16 d8-> d16 d8-> c16-> c c c16 c c c8-> 
 
-  g8->^\accGm\mf   g16 g8-> g16 g8-> 
-    a16->^\accA a16 a a a8-. a8->^\markup{ \italic gliss.}
-  d16.->^\markup{ \italic arp. }^\accDm d32-> d16 d8 d16 d8-> 
-    c16->^\accC c32 c32 c16 c16 c16 c16 c8
-  b8->^\accB b16 b8-> b16 b8-> b16 b8-> b16 b8-> b8->
-  c32^\accC c32 c8.->~ c2 
-    a16^\markup{\italic pizz.}^\markup{A} c^\markup{ C } 
-    e^\markup{ E } g^\markup{ G }
+  g8->\mf   g16 g8-> g16 g8-> a16-> a16 a a a8-. a8->\glissando
+  d16.->^\markup{ \italic arp. } d32-> d16 d8 d16 d8-> c16-> c32 c32 c16 c16 c16 c16 c8
+  b8-> b16 b8-> b16 b8-> b16 b8-> b16 b8-> b8-> 
+  c32 c32 c8.->~ c2 a16^\markup{\italic pizz.} c e g
 
   \mark \default
 
-  d16->^\accDm\mp d d d-> d d d-> d d d-> d d d8-> d->
+  d16->\mp d d d-> d d d-> d d d-> d d d8-> d->
   d16->        d d d-> d d d-> d d d-> d d d8-> d->
 
   \mark \default
 
-  d16->^\accDm\mp d d d-> d d d-> d d d-> d d d8-> d->
-  b16->^\accB b b b-> b b b-> b b b-> b b b8-> b->
-  c16->^\accC c c c-> c c c-> c c c-> c c c8-> c->
-  d16->^\accDm d d d-> d d d-> d d d-> d d d8-> d->
+  d16->\mp d d d-> d d d-> d d d-> d d d8-> d->
+  b16-> b b b-> b b b-> b b b-> b b b8-> b->
+  c16-> c c c-> c c c-> c c c-> c c c8-> c->
+  d16-> d d d-> d d d-> d d d-> d d d8-> d->
 
-  d16->^\accDm d d d-> d d d-> d d d-> d d d8-> d->
-  b16->^\accB b b b-> b b b-> b b b-> b b b8-> b->
-  c16->^\accC c c c-> c c c-> c c c-> c c c8-> c->
-  f16->^\accF f f f-> f f f-> f f f-> f f f8-> f->
-
-  \mark \default
-
-  r8 g16^\accGm\p g-. g-. g-. g8-> a16^\accA a\( a\) a-. a-. a-. a8->
-  r8 g16^\accDm g-. g-. g-. g8-> a32^\accC-> a32 a16 a-. a-. a-. a-. a8->
-  g8^\accGm g16 g8 g16 g8 a16^\accA a-> a-> a a a a8->
-  d8^\accDm d16 d8 d16 d8 c8^\accC c16 c8 c16 c8
-
-  g8^\markup{\italic arp.}^\accGm-> g16 g8-> g16 g8-> 
-    a16^\accA a16-> a16 g16 g8-> g8->
-  d8^\accDm d16 d8 d16 d8 c16^\accC c-> c-> c c c c8->
-  b8->^\accB b16 b8-> b16 b8-> b16 b8-> b16 b8-> b8->
-  c2.^\accC r4
+  d16-> d d d-> d d d-> d d d-> d d d8-> d->
+  b16-> b b b-> b b b-> b b b-> b b b8-> b->
+  c16-> c c c-> c c c-> c c c-> c c c8-> c->
+  f16-> f f f-> f f f-> f f f-> f f f8-> f->
 
   \mark \default
 
-  d8->^\accDm\mp d16 d8-> d16 d8-> d16 d8-> d16 d8-> d->
+  r8 g16\p g-. g-. g-. g8-> a16 a\( a\) a-. a-. a-. a8->
+  r8 g16 g-. g-. g-. g8-> a32-> a32 a16 a-. a-. a-. a-. a8->
+  g8 g16 g8 g16 g8 a16 a-> a-> a a a a8->
+  d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
+
+  g8^\markup{\italic arp.}-> g16 g8-> g16 g8-> 
+    a16 a16-> a16 g16 g8-> g8->
+  d8 d16 d8 d16 d8 c16 c-> c-> c c c c8->
+  b8-> b16 b8-> b16 b8-> b16 b8-> b16 b8-> b8->
+  c2. r4
+
+  \mark \default
+
+  d8->\mp d16 d8-> d16 d8-> d16 d8-> d16 d8-> d->
   d8-> d16 d8-> d16 d8-> d16 d8-> d16 d8-> d->
-  b8->^\accB b16 b8-> b16 b8-> b16 b b-> b b b8-> b->
-  c8->^\accC c16 c8-> c16 c8-> c16 c8-> c16 c32 c c c c16-> 
+  b8-> b16 b8-> b16 b8-> b16 b b-> b b b8-> b->
+  c8-> c16 c8-> c16 c8-> c16 c8-> c16 c32 c c c c16-> 
 
-  d16->^\accDm d d d-> d d d-> d d d-> d d d8-> d->
+  d16-> d d d-> d d d-> d d d-> d d d8-> d->
   d8-> d16 d8-> d16 d8-> d16 d8-> d16 d8-> d->
-  b8->^\accB b16 b8-> b16 b8-> b16 b b-> b b8-> b->
-  c8->^\accC c16 c8-> c16 c8-> c16 c8-> c32 c32 c16.-> c32 c8->
+  b8-> b16 b8-> b16 b8-> b16 b b-> b b8-> b->
+  c8-> c16 c8-> c16 c8-> c16 c8-> c32 c32 c16.-> c32 c8->
 
   \mark \default
 
 
-  g8->^\accGm g16 g8-> g16 g8-> c16^\accA a-> a-> a a a a8->
-  d8->^\accDm d16 d8-> d16 d8-> c16^\accC c8-> c16 c8-> c8
-  g8->^\accGm d16 g8-> g16 g8-> a16^\accA a8-> a8-> a16 a8->
-  d8->^\accDm d16 d8-> d16 d8-> c16^\accC c32 c32 c16-> c16 c16 c16 c8->
+  g8-> g16 g8-> g16 g8-> c16 a-> a-> a a a a8->
+  d8-> d16 d8-> d16 d8-> c16 c8-> c16 c8-> c8
+  g8-> d16 g8-> g16 g8-> a16 a8-> a8-> a16 a8->
+  d8-> d16 d8-> d16 d8-> c16 c32 c32 c16-> c16 c16 c16 c8->
 
-  g8->^\accGm g16 g8-> g16 g8-> a16^\accA a32 a32 a16-> a16 a8-> a8->
-  d8->^\accDm d16 d8-> d16 d8-> c16^\accC c8-> c8-> c16 c8->
-  b8->\p^\accB b16 b8-> b16 b8-> b16 b8-> b16 b8-> b32 b32 b16->
-  c2.^\accC r4
+  g8-> g16 g8-> g16 g8-> a16 a32 a32 a16-> a16 a8-> a8->
+  d8-> d16 d8-> d16 d8-> c16 c8-> c8-> c16 c8->
+  b8->\p b16 b8-> b16 b8-> b16 b8-> b16 b8-> b32 b32 b16->
+  c2. r4
 
-  d8->^\accDm d16 d8-> d16 d8-> d16 d8-> d16 d8-> d8->
   d8-> d16 d8-> d16 d8-> d16 d8-> d16 d8-> d8->
-  d32^\accC\p d32 d8.~ d4 r2
+  d8-> d16 d8-> d16 d8-> d16 d8-> d16 d8-> d8->
+  d32\p d32 d8.~ d4 r2
   \bar "|."
 }

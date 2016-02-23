@@ -1,12 +1,5 @@
-accDm = \markup { Dm }
-accGm = \markup { Gm } 
-accG = \markup { G } 
-accB = \markup { B }
-accC = \markup { C }
-accF = \markup { F }
-accA = \markup { A } 
-
 guitarChords = \chordmode {
+  \germanChords
 
   r4.
   g2. | d2.:m | g2. | d2.:m/f
@@ -21,14 +14,12 @@ guitarChords = \chordmode {
   \bKey
 
   b,2. | c2. | d2.:m | a2.:m
-  b2. | c2. | f2.:m | d2.:m
+  b2. | c2. | f2. | d2.:m
 
   \mark \default
 
   b2. | c2. | d2.:m | a2.:m
-  b2. | c2.:m 
-  d4.:m a4.:m | d2.:m
-  g4.:m d4.:m | d2.:m
+  b2. | c2. | R2.*4
 
   \mark \default
 
@@ -87,10 +78,18 @@ guitar = \relative c'' {
 
   b8. b16 b8 b b16 b b8
   c8 c16 c c8 c c c
-  d4 <f a d>8 a,4 <e' a c>8
-  d4. r4.
-  d4 <f a d>8 a,4 <e' a c>8
-  << {d'8 a d f4.} \\ {d,2.} >>
+
+  << { 
+    r4 <f a d>8 r4 <e a c>8
+    d'2.
+    r4 <f, a d>8 r4 <e a c>8
+    d'8 a d f4.
+    } \\ {
+    d,4. a4.
+    d2.
+    d4. a4.
+    d2.
+  } >>
 
   \mark \default
   \cKey
@@ -104,11 +103,11 @@ guitar = \relative c'' {
     r8 a d fis d a
     r8 h e gis e h
     r8 b es g es b
-    r2.
+    d,2.
     
   } \\ {
     
-    d,2. d2. d2. d2.
+    d2. d2. d2. d2.
     d2. d2. d2. d2.} 
   >>
   

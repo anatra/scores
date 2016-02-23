@@ -11,9 +11,10 @@
   \new Score {
     \set Score.markFormatter = #format-mark-box-numbers
     <<
-      % \set Staff.midiInstrument = "acoustic guitar (nylon)"
-      \new ChordNames { \guitarChords } 
-      { \keepWithTag #'part \guitar }
+      \new ChordNames { \guitarChords } {
+        \set Staff.midiInstrument = "acoustic guitar (nylon)"
+        \keepWithTag #'part \guitar
+      }
     >>
   }
   \layout {

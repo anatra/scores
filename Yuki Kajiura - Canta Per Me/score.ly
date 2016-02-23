@@ -53,11 +53,11 @@
       >>
 
       \new StaffGroup <<
-        \new RhythmicStaff <<
-          \set RhythmicStaff.instrumentName = #"Guitar"
-          \set RhythmicStaff.midiInstrument = "acoustic guitar (nylon)"
-          \removeWithTag #'part \guitar
-        >>
+        \new ChordNames { \guitarChords } {
+          \set Staff.instrumentName = #"Guitar"
+          \set Staff.midiInstrument = "acoustic guitar (nylon)"
+          \keepWithTag #'part \guitar
+        }
       >>
     >>
   }

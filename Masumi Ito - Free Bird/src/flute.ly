@@ -30,6 +30,7 @@ fluteOne = \relative c'' {
 
   R2.*7
 
+  \clef treble
   r4. a8 a h
   
   \mark \default

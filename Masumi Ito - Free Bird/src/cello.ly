@@ -74,6 +74,7 @@ celloOne = \relative c {
   \mark \default
 
   R2.*7
+  \clef bass
   << {a'2.^\markup{arco}\fermata} \\ { s8\p\< s4 s4\> s8\! } >>
 
   \bar "|."

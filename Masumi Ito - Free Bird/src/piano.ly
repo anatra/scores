@@ -39,12 +39,20 @@ pianoRight = \relative c'' {
   \mark \default
   \dKey
 
-  R2.*8
+  <a, cis e>4. cis,8 e a
+  <g h e>4. fis8 g a
+  <cis e>4. cis,8 e a
+  <g h e>4. a8 h d
+
+  <a cis>4. cis,8 e a
+  <g h e>4. fis8 g a
+  <cis e>4. cis,8 e a
+  <g h e>4. fis8 g a
 
   \mark \default
   \eKey
 
-  <e, e'>4 <e e'>8 <e e'>4 <e e'>8
+  <e' e'>4 <e e'>8 <e e'>4 <e e'>8
   <e e'>4 <d d'>8 <c c'>4 <h h'>8
   <d d'>4 <d d'>8 <d d'>4 <d d'>8
   <d d'>8 <e e'> <f f'> <e e'>4.
@@ -75,7 +83,7 @@ pianoRight = \relative c'' {
   a4. g
   <e a>4. d4.
   c4. r4 d8
-  e2.~
+  e4. e8 h' e~
   e2.\fermata
 
   \bar "|."
@@ -123,17 +131,33 @@ pianoLeft = \relative c {
   \mark \default
   \dKey
 
-  R2.*8
+  a,8 e' a r4.
+  e,8 h' e r4.
+  a,8 e' a r4.
+  g,8 e' g r4.
+
+  a,8 e' a r4.
+  e,8 h' e r4.
+  a,8 e' a r4.
+  g,8 e' g r4.
 
   \mark \default
   \eKey
 
-  R2.*8
+  a,8 e' h' cis d e
+  f,,8 c' g' a h c
+  g,8 d' g a h c
+  c,8 g' c d e g
+
+  a,,8 e' a h c e
+  f,,8 c' f g a h
+  g,8 d' g a h d 
+  g4. r4.
 
   \mark \default
   \dKey
 
-  a8 e' a a, e' a
+  a,8 e' a a, e' a
   a,8 e' a a, e' a
   e,8 g h e, g h
   e,8 g h e, g h
@@ -153,9 +177,7 @@ pianoLeft = \relative c {
 
   R2.
 
-  \clef treble
-  a'8\p e' a e' h'4~
-  h2.\fermata
+  << { a8\p e' a r4. r2.} \\ {a,2.~ a2.\fermata} >>
 
   \bar "|."
 }

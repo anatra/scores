@@ -36,6 +36,8 @@ celloOne = \relative c {
   f8 e f a c a
   e'8 d c a4 e8
 
+  \mark \default
+
   f8 d f b c d
   b8 a b c b a
   f8 a d e4 d8 % alternative: f8 a d e c g
@@ -71,7 +73,8 @@ celloOne = \relative c {
 
   \mark \default
 
-  R2.*8
+  R2.*7
+  << {a'2.^\markup{arco}\fermata} \\ { s8\p\< s4 s4\> s8\! } >>
 
   \bar "|."
 }

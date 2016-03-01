@@ -19,6 +19,9 @@ fluteOne = \relative c'' {
   \bKey
 
   R2.*8
+
+  \mark \default
+
   R2.*8
   R2.*2
 

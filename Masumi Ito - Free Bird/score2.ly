@@ -2,10 +2,9 @@
 #(set-global-staff-size 15)
 
 \include "src/settings.ly"
-\include "src/flute.ly"
 \include "src/violin.ly"
+\include "src/accordion_one.ly"
 \include "src/accordion_two.ly"
-\include "src/cello.ly"
 \include "src/guitar.ly"
 \include "src/piano.ly"
 \include "src/tambourine.ly"
@@ -26,27 +25,22 @@
 
       \new StaffGroup <<
         \new Staff <<
-          \set Staff.instrumentName = #"Flute"
-          \set Staff.midiInstrument = "flute"
-          \removeWithTag #'score \fluteOne
+          \set Staff.instrumentName = #"Violin"
+          \set Staff.midiInstrument = "violin"
+          \removeWithTag #'score \violinOne
         >>
       >>
 
       \new StaffGroup <<
         \new Staff <<
-          \set Staff.instrumentName = #"Violin 1"
-          \set Staff.midiInstrument = "violin"
-          \removeWithTag #'part \violinOne
+          \set Staff.instrumentName = #"Accordion 1"
+          \set Staff.midiInstrument = "accordion"
+          \removeWithTag #'part \accordionOneRight
         >>
         \new Staff <<
-          \set Staff.instrumentName = #"Violin 2"
-          \set Staff.midiInstrument = "violin"
+          \set Staff.instrumentName = #"Accordion 2"
+          \set Staff.midiInstrument = "accordion"
           \removeWithTag #'part \accordionTwoRight
-        >>
-        \new Staff <<
-          \set Staff.instrumentName = #"Cello"
-          \set Staff.midiInstrument = "cello"
-          \removeWithTag #'part \celloOne
         >>
       >>
 

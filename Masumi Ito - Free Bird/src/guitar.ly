@@ -111,5 +111,31 @@ guitar = \relative c'' {
     d2. d2. d2. d2.} 
   >>
   
+  \mark \default
+  \dKey
+
+  R2.*8
+
+  \mark \default
+  \eKey
+
+  R2.*8
+
+  \mark \default
+  \dKey
+
+  <a e' a cis e a>4.\arpeggio r4.
+  R2.
+  <e h' e g h e>4.\arpeggio r4.
+  R2.
+
+  <a e' a cis e a>4.\arpeggio r4.
+  R2.
+  <e h' e g h e>4.\arpeggio r4.
+  R2.
+  \mark \default
+
+  R2.*8
+
   \bar "|."
 }

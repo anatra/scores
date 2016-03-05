@@ -1,4 +1,4 @@
-accordionTwoRight = \relative a' {
+violinTwo = \relative a'' {
   \defaultTempo
   \aKey
   \defaultTime
@@ -40,7 +40,8 @@ accordionTwoRight = \relative a' {
   f8 e d g f e
   f8 e d g f e
   
-  R2.*2
+  f,8\p e d g f e
+  f8 e d d4.
 
   \mark \default
   \cKey
@@ -64,7 +65,9 @@ accordionTwoRight = \relative a' {
 
   \mark \default
 
-  R2.*8
+  R2.*7
+
+  << {h'2.\fermata} \\ { s8\p\< s4 s4\> s8\! } >>
 
   \bar "|."
 }

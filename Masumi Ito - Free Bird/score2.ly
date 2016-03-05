@@ -2,9 +2,9 @@
 #(set-global-staff-size 15)
 
 \include "src/settings.ly"
-\include "src/violin.ly"
+\include "src/violin_one.ly"
+\include "src/violin_two.ly"
 \include "src/accordion_one.ly"
-\include "src/accordion_two.ly"
 \include "src/guitar.ly"
 \include "src/piano.ly"
 \include "src/tambourine.ly"
@@ -40,7 +40,7 @@
         \new Staff <<
           \set Staff.instrumentName = #"Accordion 2"
           \set Staff.midiInstrument = "accordion"
-          \removeWithTag #'part \accordionTwoRight
+          \removeWithTag #'part \violinTwo
         >>
       >>
 

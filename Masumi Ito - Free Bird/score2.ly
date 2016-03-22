@@ -5,6 +5,8 @@
 \include "src/violin_one.ly"
 \include "src/violin_two.ly"
 \include "src/accordion_one.ly"
+\include "src/accordion_two.ly"
+\include "src/accordion_bass.ly"
 \include "src/guitar.ly"
 \include "src/piano.ly"
 \include "src/tambourine.ly"
@@ -37,10 +39,16 @@
           \set Staff.midiInstrument = "accordion"
           \removeWithTag #'part \accordionOneRight
         >>
-        \new Staff <<
-          \set Staff.instrumentName = #"Accordion 2"
-          \set Staff.midiInstrument = "accordion"
-          \removeWithTag #'part \violinTwo
+        \new PianoStaff <<
+          \set PianoStaff.instrumentName = #"Accordion 2"
+          \set PianoStaff.midiInstrument = "accordion"
+
+          \new Staff <<
+            \removeWithTag #'score \accordionTwo
+          >>
+          \new Staff <<
+            \removeWithTag #'score \accordionBass
+          >>
         >>
       >>
 

@@ -1,4 +1,4 @@
-pianoRight = \relative c'' {
+pianoRight = \relative c' {
   \defaultTempo
   \aKey
   \defaultTime
@@ -16,13 +16,31 @@ pianoRight = \relative c'' {
   \mark \default
   \bKey
 
-  R2.*8
+  <b d f>2.
+  <g c e>2.
+  <a d f>2.
+  <a c e>2.
+
+  <b d f>2.
+  <g c e>2.
+  <c f a>2.
+  <d f a>2.
 
   \mark \default
 
-  R2.*9
+  <b d f>2.
+  <g c e>2.
+  <a d f>2.
+  <a c e>2.
 
-  r4. r4 a8
+  <b d f>2.
+  <c e g>2.
+  <d f a>4. <c e a>4.
+  <a d f>4. r4.
+
+  R2.
+
+  r4. r4 a'8
 
   \mark \default
   \cKey
@@ -73,7 +91,7 @@ pianoRight = \relative c'' {
   r4. <cis e h'>4.
   <cis e a>2.
   r4. <g h e>4.~
-  <g h e>4. r4.
+  <g h e>2.
 
   \mark \default
 
@@ -109,11 +127,29 @@ pianoLeft = \relative c {
   \mark \default
   \bKey
 
-  R2.*8
+  b2.
+  c2.
+  d2.
+  a2.
+
+  b2.
+  c2.
+  f,2.
+  d2.
 
   \mark \default
 
-  R2.*10
+  b'2.
+  c2.
+  d2.
+  a2.
+
+  b2.
+  c2.
+  d4. a4.
+  d4. r4.
+
+  R2.*2
 
   \mark \default
   \cKey

@@ -1,7 +1,7 @@
 \version "2.10.0"
 \include "deutsch.ly"
 \header {
-	composer = "Masumi Ito"
+	composer = "Ko Otani"
 	subtitle = ""
 	title = "Free Bird"
 	subtitle = "Вільна птаха"

@@ -14,13 +14,38 @@ accordionOneSolo = \relative a' {
   \tag #'part \mark \default
   \aTime
 
-  R2.*3
+  R2.
+  <a h c e>2.^\markup{vibrato}
+  <g a h d>2.~
+
   \bTime
-  R1*2
-  R2.*8
-  R1*2
+
+  <g a h d>4 <e a c>2.~
+  <e a c>2 r2
+
+  \aTime
+
+  r8 c'32 h a gis a8~ <a h>~ <a c>4
+  r8 d32 e d c d8~ <g, h d>4.
+  r8 a16 h c e a8 h <a c>8~
+  <a c>4 r2
+
+  <d, f>8~ <a d a'>4 r4.
+  <a d>8 <g c e>4 r4.
+
+  r4 r8 e'4.
+  <f, a c>2.
+
+  \bTime
+  <f a>4 <f a c> <g h>4 <g e'>4
+
+  \aTime
+  r4 <a c>~ <a h>~
+  <a c>2 r4\fermata
 
   \tag #'part \mark \default
+  \bTime
+  \tag #'part \defaultTempo
 
   R1*3
   r2 r8 e8 a h 
@@ -134,7 +159,7 @@ accordionOneSolo = \relative a' {
 }
 
 accordionOneBass = \relative a' {
-  \tag #'part \defaultTempo
+  \tag #'part \introTempo
   \defaultKey
   \clef bass
   \aTime
@@ -143,13 +168,46 @@ accordionOneBass = \relative a' {
 
   \partial 4. r4.
   R2.*12
-  R1*2
-  R2.*3
-  R1*2
-  R2.*8
+
+  \bTime
   R1*2
 
-  R1*32
+  \tag #'part \mark \default
+  \aTime
+  R2.*3
+
+  \bTime
+  R1*2
+
+  \aTime
+  R2.*8
+
+  \bTime
+  R1
+
+  \aTime
+  R2.*2
+
+  \tag #'part \mark \default
+  \bTime
+  \tag #'part \defaultTempo
+
+  R1*4
+
+  \tag #'part \mark \default
+
+  R1*16
+
+  %\tag #'part \mark \default
+
+  R1*8
+
+  \tag #'part \mark \default
+
+  R1*4
+
+  \tag #'part \mark \default
+
   R1*8
 
   \tag #'part \mark \default

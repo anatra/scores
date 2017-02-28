@@ -5,13 +5,13 @@ guitar = \relative c' {
 
   \tag #'part \mark \default
 
-  \partial 4. e8 a h8
+  \partial 4. e8\pp a h8
   <a, e' a c>8 <a e' a c> <a e' a c> <a e' a c> d'8 c
   <g, d' g h>8 <g d' g h> <g d' g h> <g d' g h> a' g
   <a, a'>4 \times 2/3 {dis16 e dis} \times 2/3 {e dis e~} e4~
   e4 r4 \times 2/3 {e8 a h}
 
-  <a, e' a c>8 <a e' a c> <a e' a c> <a e' a c> d'8 c
+  <a, e' a c>8 <a e' a c> <a e' a c> <a e' a c> \grace{c'8} d8 c
   \times 2/3 {<g, d' g h>8 <g d' g h> <g d' g h>} <g d' g h> a' g4
   \grace{ gis8 a gis} <a, a'>2.~
   <a a'>4 r8 a'8 d e8
@@ -49,9 +49,11 @@ guitar = \relative c' {
   \bTime
   << {\times 2/3 {a8 h c} \times 2/3 {a h c} \times 2/3 {h c h} \times 2/3 {h a g}}
   \\ {d4 d e e,} >>
-  << {a'2.\mordent r4\fermata} \\ {a,2. r4\fermata} >>
+  \aTime
+  << {a'2.\mordent~a2 r4\fermata} \\ {a,2.~a2 r4\fermata} >>
 
   \tag #'part \mark \default
+  \bTime
   \tag #'part \defaultTempo
 
   <a e' a c e a>8->-. r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-.-> r16 <a e' a c e a>16 <a e' a c e a>16 <a e' a c e a>16 <c' e a>8-.-> r8
@@ -94,21 +96,26 @@ guitar = \relative c' {
 
   \tag #'part \mark \default
 
-  <a e' a c e a>8-.-> r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-.-> <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-.-> <a e' a c e a>16-. <a e' a c e a>16-.
-  <a e' a c e a>8-.-> r16 <a e' a c e a>16-. <a e' a c e a>8-. <a e' a c e a>8-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-. <a e' a c e a>4^\markup{gliss.}
-  <a e' a c e a>8-.-> r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-.-> <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-. <a e' a c e a>8.-.-> <a e' a c e a>16-.
-  <a e' a c e a>8-.-> r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-.-> <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-. <a e' a c e a>8-.-> <a e' a c e a>16-. <a e' a c e a>16-.
+  \override Glissando.style = #'trill
+  \set glissandoMap = #'((3 . 0) (4 . 1) (5 . 2))
+  <a e' a c e a>8->-. r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-.-> r16 <a e' a c e a>16 <a e' a c e a>16 <a e' a c e a>16 \glissando <c'' e a>8-.-> r8
+  <a,, e' a c e a>8->-. r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8->-. r8 <e e' a h c e>8 <e e' a h c e>8-> <e e' a h c e>16 <e e' a h c e>16
+  <a e' a c e a>8->-. r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8-.-> r16 <a e' a c e a>16 <a e' a c e a>16 <a e' a c e a>16 \glissando <c'' e a>8-.-> r8
+  <a,, e' a c e a>8->-. r16 <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>16-. <a e' a c e a>8->-. r8 <e e' a h c e>8 <e e' a h c e>8-> <e e' a h c e>16 <e e' a h c e>16
 
   \tag #'part \mark \default
 
-  \times 2/3 {r4 c'8} \times 2/3 {c h c} \times 2/3 {h a g} \times 2/3 {a g f}
+  \ottava #1 \set Staff.ottavation = #"8"
+
+  \times 2/3 {r4 c'''8} \times 2/3 {c h c} \times 2/3 {h a g} \times 2/3 {a g f}
   \times 2/3 {e8 g a} \times 2/3 {g e d} \times 2/3 {e4 c8\mordent} a4
   \times 2/3 {r8 a8. h16} \times 2/3 {c8 d e} \times 2/3 {a h c} \times 2/3 {h gis f}
   e4~ \times 2/3 {e4 e16 d16} \times 2/3 {e4 c16 h16} a4
 
   \times 2/3 {r4 e''16 e16} \times 2/3 {e8 f e^\markup{maybe rest}} d4 r8 d32 d32 d32 d32
-  \times 2/3 {d8 c h} \times 2/3 {d c h} c2
-  r8 <d, e>8 <d e> <d e> <d e>8. <c e>8. <h e>8
+  \times 2/3 {d8 c h} \times 2/3 {d c h} c2 \ottava #0
+  r8 <d,, e>8 <d e> <d e> <d e>8. <c e>8. <h e>8
+
   <a e'>8. <gis e'>8. <e h' e gis h e>8 <e h' e gis h e>8 <e h' e gis h e>8\< <e h' e gis h e>8 <e h' e gis h e>8
 
   \tag #'part \mark \default

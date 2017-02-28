@@ -1,4 +1,4 @@
-celloOne = \relative c {
+celloOne = \relative c' {
   \defaultTempo
   \aKey
   \defaultTime

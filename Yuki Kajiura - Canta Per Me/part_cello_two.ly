@@ -1,4 +1,4 @@
-#(set-global-staff-size 12)
+%#(set-global-staff-size 18)
 \include "src/header.ly"
 
 \header {

@@ -25,7 +25,7 @@ celloTwo = \relative c {
   d8 d16 d8 d16 d8 d16 c8 c16 c8-- c16 c16
   b8 b16 b8 b16 b8 b16 a8 a16 a8-- a16 a16
   d8 d16 d8 d16 d8 d16 c8 c16 c8-- c16 c16
-  
+
   b8 b16 b8 b16 b8 b16 a8 a16 a8-- a16 a16
   d8 d16 d8 d16 d8 d16 c8 c16 c8-- c16 c16
   b8 b16 b8 b16 b8 b16 b8 b16 b8-- b16 b16
@@ -35,7 +35,7 @@ celloTwo = \relative c {
 
   d'8\mp d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
   d8 d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
-  
+
   \mark \default
 
   a4\mp a8 a g4 g8 a
@@ -65,28 +65,31 @@ celloTwo = \relative c {
   g8.\mf\) f16 \times 2/3 {e8 f e} \times 2/3 {d e d} d8. a16
   f8. e16 \times 2/3 {d8 f a} \times 2/3 {c a a} \times 2/3 {a g f}
   b,8. a16 \times 2/3 {b8 d f} \times 2/3 {a c c} \times 2/3 {c a g16 f}
-  e4~\< \times 2/3 {e8 g g} \times 2/3 {g b b} \times 2/3 {b\! f\> e}
+  e4~\< \times 2/3 {e8 g g} \times 2/3 {g b b} \times 2/3 {b\! d\> d}
 
-  d4\! r4 r2
-  R1*3
+  \autoBeamOff
+  d'8.\f a8 a16 a \grace { b16[ a16]} g a8. g8 g16 g \grace { a16[ g16]} f
+  d8 d8 c16 \grace { d16[ c16] } a8 r16 \times 2/3 {r8 a\mf a} b8[ a16 a]
+  b4~ \times 2/3 {b8 a \grace { b16[ a16] } g8} \times 2/3 {a[ g f]} \times 2/3 {g[ f e]}
+  \autoBeamOn
+  \times 2/3 {e8~ e\mp d} \times 2/3 {e\< g b } \times 2/3 {d~ d c~\mf\!} c4
 
   \mark \default
 
-  \ottava #1
-  \set Staff.ottavation = #"8"
-  r8 g'\mf~g8. f16 e8. e16~ \times 2/3 {e8 f g}
-  a8. g8 f e16 e8. d8 c a16
-  b4. a8 \grace { b8[ a8]} g8. f8 e8 d16
-  d4.\mp c16. f32 d4 \times 2/3 {a'8\< b c}
+  b,8\mp b16 b8 b16 b8 a16 a16 a16 a8 a16 a8\glissando
+  d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
+  b8 b16 b8 b16 b8 a8 a16 a8 a16 a8
+  d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
 
-  e4\mf\!~ \times 2/3 {e8 d8 f8 \grace { gis8 }} a8. c8. b16 b16~
-  b8 a8. g16 g8 \grace { f8[ e8]} d4. \times 2/3{c16 d c}
-  b8.\< d8. f8 f4 \times 2/3 {e8 f g}
+  b8\mp b16 b8 b16 b8 a8 a16 a8 a16 a8
+  d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
+  b8 b16 b8 b16 b8 b16 b16 b16 b8 b16 b8
+  << { c2. a16\!\( c e f} { s2\< s4\! s4 } >>
 
-  c2.\! a,16\mp\(\< c e g
-  g8.\) f16 f8 e16 f32 g a8. c8. e8
-  d1--\f\!
-  R1
+  d8\mp\) d16 d8 d16 d8 d16 d8 d16 d8 d8
+  d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
+
+  << { d2 r2 } { s4.\< s8\! s2} >>
 
   \bar "|."
 }

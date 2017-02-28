@@ -1,8 +1,8 @@
-fluteOne = \relative c {
+fluteOne = \relative c' {
   \defaultTempo
   \defaultKey
   \defaultTime
-  \clef bass
+  \clef treble
   \override Glissando #'style = #'trill
   d8\mp d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
   d8 d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16

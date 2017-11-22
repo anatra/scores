@@ -2,6 +2,7 @@ accordionOneSolo = \relative a' {
   \defaultTempo
   \defaultKey
   \defaultTime
+  \override BreathingSign.Y-offset = #4.0
   R2*4
 
   \mark \default
@@ -9,7 +10,7 @@ accordionOneSolo = \relative a' {
   a4\accViolin\mp\( a8 a g4. a8
   g4 f~f\) a\(
   a g~g\) e\(
-  e f2~f16\) b32\(\< c d e f g
+  e f2~f16\) \breathe b32\(\< c d e f g
 
   f4\mf\! f8 f e4. f8
   e4 d~d\) f\(

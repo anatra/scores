@@ -20,6 +20,7 @@ versionedFooter = \markup { \fill-line \center-align {
       \gitCommand "describe --tags --always"
       " підготовлена "
       #(strftime "%d.%m.%Y " (localtime (current-time)))
+      #(if (gitIsClean ) "" " (чернетка)")
       }
     }
   }

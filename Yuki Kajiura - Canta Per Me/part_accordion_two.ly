@@ -1,5 +1,5 @@
 \include "src/header.ly"
-
+#(set-global-staff-size 17)
 \header {
   instrument = "Accordion 2"
 }

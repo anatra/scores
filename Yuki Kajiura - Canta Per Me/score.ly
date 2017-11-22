@@ -1,16 +1,18 @@
 \include "src/header.ly"
-#(set-global-staff-size 15)
+
+%#(set-global-staff-size 15)
 
 \include "src/settings.ly"
+
 \include "src/accordion.ly"
 \include "src/accordion_one.ly"
 \include "src/accordion_two.ly"
-\include "src/accordion_three.ly"
+%\include "src/accordion_three.ly"
 \include "src/accordion_bass.ly"
 \include "src/flute.ly"
-\include "src/violin.ly"
-\include "src/cello_one.ly"
-\include "src/cello_two.ly"
+\include "src/violin_one.ly"
+\include "src/violin_two.ly"
+%\include "src/cello_two.ly"
 \include "src/guitar.ly"
 
 \score {
@@ -19,11 +21,30 @@
     \new GrandStaff <<
       \new StaffGroup <<
         \new Staff <<
-          \set Staff.instrumentName = #"Flute"
-          \set Staff.midiInstrument = "flute"
-          \removeWithTag #'score \fluteOne
+          \set Staff.instrumentName = #"Violin 1"
+          \set Staff.midiInstrument = "violin"
+          \removeWithTag #'part \violinOne
         >>
+        \new Staff <<
+          \set Staff.instrumentName = #"Violin 2"
+          \set Staff.midiInstrument = "violin"
+          \removeWithTag #'part \violinTwo
+        >>
+%         \new Staff <<
+%           \set Staff.instrumentName = #"Cello"
+%           \set Staff.midiInstrument = "cello"
+%           \removeWithTag #'part \celloTwo
+%         >>
+      >>
 
+      \new StaffGroup <<
+        \new ChordNames { \guitarChords } {
+          \set Staff.instrumentName = #"Guitar"
+          \set Staff.midiInstrument = "acoustic guitar (nylon)"
+          \keepWithTag #'part \guitar
+        }
+      >>
+   \new StaffGroup <<
         \new PianoStaff <<
           \set PianoStaff.instrumentName = #"Accordion 1"
           \set PianoStaff.midiInstrument = "accordion"
@@ -37,27 +58,12 @@
           \removeWithTag #'part \accordionTwoSolo
           \removeWithTag #'part \accordionThreeBass
         >>
-      >>
 
-      \new StaffGroup <<
-        \new Staff <<
-          \set Staff.instrumentName = #"Violin"
-          \set Staff.midiInstrument = "violin"
-          \removeWithTag #'part \violinOne
-        >>
-        \new Staff <<
-          \set Staff.instrumentName = #"Cello"
-          \set Staff.midiInstrument = "cello"
-          \removeWithTag #'part \celloTwo
-        >>
-      >>
-
-      \new StaffGroup <<
-        \new ChordNames { \guitarChords } {
-          \set Staff.instrumentName = #"Guitar"
-          \set Staff.midiInstrument = "acoustic guitar (nylon)"
-          \keepWithTag #'part \guitar
-        }
+%         \new Staff <<
+%           \set Staff.instrumentName = #"Accordion 3"
+%           \set Staff.midiInstrument = "accordion"
+%           \removeWithTag #'part \accordionThree
+%         >>
       >>
     >>
   }

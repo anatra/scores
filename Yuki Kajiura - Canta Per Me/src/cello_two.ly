@@ -84,7 +84,7 @@ celloTwo = \relative c {
   b8\mp b16 b8 b16 b8 a8 a16 a8 a16 a8
   d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
   b8 b16 b8 b16 b8 b16 b16 b16 b8 b16 b8
-  << { c2. a16\!\( c e f} { s2\< s4\! s4 } >>
+  << { c2. a16\!\( c e g} { s2\< s4\! s4 } >>
 
   d8\mp\) d16 d8 d16 d8 d16 d8 d16 d8 d8
   d8 d16 d8 d16 d8 d16 d8 d16 d8 d8

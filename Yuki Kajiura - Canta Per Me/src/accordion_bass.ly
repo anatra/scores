@@ -78,7 +78,7 @@ accordionBass = \relative c {
   d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
   d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
 
-  R1
+  d2 r2
 
   \bar "|."
 }

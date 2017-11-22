@@ -84,9 +84,9 @@ fluteOne = \relative c' {
   b8.\< d8. f8 f4 \times 2/3 {e8 f g}
 
   c2.\! a,16\mp\(\< c e g
-  g8.\) f16 f8 e16 f32 g a8. c8. e8
-  d1--\f\!
-  R1
+  g8.\) f16 \times 2/3 {e8 f g} a8. c8. e8
+  d1~\f\!
+  d2 r2
 
   \bar "|."
 }

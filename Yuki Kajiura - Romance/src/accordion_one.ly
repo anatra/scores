@@ -261,7 +261,7 @@ accordionOneBass = \relative a, {
   f2 d'2
   g,2 f2
   e'1
-  e1
+  e2 r2
 
   \tag #'part \mark \default
 

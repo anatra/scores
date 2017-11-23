@@ -1,5 +1,5 @@
 \include "src/header.ly"
-#(set-global-staff-size 15)
+#(set-global-staff-size 17)
 
 \include "src/settings.ly"
 \include "src/accordion.ly"
@@ -11,7 +11,7 @@
     \set Score.markFormatter = #format-mark-box-numbers
     \new GrandStaff <<
       \new StaffGroup <<
-        \new ChordNames { \guitarChords } {
+        \new ChordNames { \removeWithTag #'part \guitarChords } {
           \new Staff <<
             \set Staff.instrumentName = #"Guitar"
             \set Staff.midiInstrument = "acoustic guitar (nylon)"

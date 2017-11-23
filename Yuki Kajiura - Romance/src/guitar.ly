@@ -273,12 +273,12 @@ guitar = \relative c' {
   c8. <f, a>8. <f a>8~ <f a>8 e'8 d c
   <g h>8. <g h>8. <g h>8~ <g h>8 h d f
   f16 e d e~ e8 e8 g, c, h h8
-  a4. g8 <g d' g h d g>8 q8 q8 q8
+  a4. g8 <g d' g h d g>8\< q8 q8 q8
 
   \tag #'part \mark \default
 
   \arpeggioArrowUp
-  <f c' f a c f>4 q8\arpeggio q4 q8 q8 q16 q16
+  <f c' f a c f>4\! q8\arpeggio q4 q8 q8 q16 q16
   \arpeggioArrowDown
   <e h' e gis h e>4 q8\arpeggio q4. q4
   \arpeggioNormal

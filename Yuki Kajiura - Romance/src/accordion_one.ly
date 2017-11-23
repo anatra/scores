@@ -1,3 +1,5 @@
+#(use-modules (scm accreg))
+
 accordionOneSolo = \relative a' {
   \tag #'part \introTempo
   \defaultKey
@@ -15,43 +17,43 @@ accordionOneSolo = \relative a' {
 
   \aTime
 
-  r2 r8. <a h c e>16~^\markup{vibrato}
+  \override TextSpanner.bound-details.left.text = \markup { \small vibrato }
+  r2 r8. <a, h c e>16~ \accClarin \startTextSpan
   <a h c e>2.
   <g a h d>2.~
 
   \bTime
 
   <g a h d>4 <e a c>2.~
-  <e a c>2 r2
+  <e a c>2 \stopTextSpan r2
 
   \aTime
 
-  r8 c'32 h a gis a8~ <a h>~ <a c>4
-  r8 d32 e d c d8~ <g, h d>4.
-  r8 a16 h c e a8 h <a c>8~
-  <a c>4 r2
+  r8 c'32 h a gis << {a8\( h c4\)} \\ {a4~ a4} >>
+  r8 d32\( e d c d8~ <g, h d>4.\)
+  r8 a16\( h c e a8 h <a c>8~
+  <a c>4\) r2
 
-  <d, f>8~ <a d a'>4 r4.
-  <a d>8 <g c e>4 r4.
+  <d, f>8~\( <a d a'>4-.\) r4.
+  <a d>8\( <g c e>4-.\) r4.
 
   \tag #'score \break
 
-  r4 r8 e'4.
-  <f, a c>2.
+  r4 r8 e'4.\(
+  <f, a c>2.\)
 
   \bTime
-  <f a>4 <f a c> <g h>4 <g e'>4
+  <f a>4\( <f a c> <g h>4 <g e'>4\)
 
   \aTime
-  r4 <a c>~ <a h>~
-  <a c>2 r4\fermata
+  r4 << {c4\( h4 c2\) } \\ {a2~ a2} >> r4\fermata
 
   \tag #'part \mark \default
   \bTime
   \tag #'part \defaultTempo
 
   R1*3
-  r2 r8 e8 a h
+  r2 r8 e'8\accOboe a h
 
   \tag #'part \mark \default
 
@@ -99,7 +101,7 @@ accordionOneSolo = \relative a' {
 
   \tag #'part \mark \default
 
-  <f a c>1
+  <f a c>1\accHarmon
   <e a c>2. <e a c>4
   <f a c>1
   <e a c>2. <e a c>4
@@ -119,7 +121,7 @@ accordionOneSolo = \relative a' {
 
   e16 e d e f e d c h c d~ d r4
 
-  << {r4 a2.} \\ {r8. c,16 d dis~ dis4 d16 c d c d c} >>
+  << {r4 a'2.} \\ {r8. c,16 d dis~ dis4 d16 c d c d c} >>
   << {a'8. a8~ a8 r16 r2} \\ {dis,16 e8 d8~ d8 r16 r16 f32 e d16 c h c cis d } >>
   c16 h a gis h4 d,16-> d c d d8-> c16 d
   e8 dis16 e gis8 g16 gis h8 d16 c8 h8 a16
@@ -127,12 +129,12 @@ accordionOneSolo = \relative a' {
   \grace gis8 a4. \grace dis,8 e8 \times 2/3 {e4 d c}
   \grace dis8 e8. c16-. r4 r4 \times 2/6 {h8 c h a h c}
   d4. c8 \times 2/3 {h4 c h}
-  h1~\trill
-  h4-. <gis h e>2.\<
+  h1~\startTrillSpan
+  h4-.\stopTrillSpan <gis h e>2.\<
 
   \tag #'part \mark \default
 
-  <e a c>8.\! <e a c>16 <e a c>8 <e a c>8~ <e a c>8 r8  <e a c>4
+  <e, a c>8.\!\sp <e a c>16 <e a c>8 <e a c>8~ <e a c>8 r8  <e a c>4
   <e gis h>8. <e gis h>16 <e gis h>8 <e gis h>8~ <e gis h>8 r8 <e gis h>4
   <e a c>8. <e a c>16 <e a c>8 <e a c>8~ <e a c>8 r8  <e a c>8 <e a c>8
   <e gis h>8. <e gis h>16 <e gis h>8 <e gis h>8~ <e gis h>8 r8 <e gis h>8 <e gis h>8
@@ -194,9 +196,9 @@ accordionOneBass = \relative a, {
   a4 r2
 
   d4. r4.
-  d8 c4 r4.
-  h2.
-  f2.
+  d8\( c4\)-. r4.
+  h2.\(
+  f2.\)
 
   \bTime
 
@@ -215,9 +217,25 @@ accordionOneBass = \relative a, {
 
   \tag #'part \mark \default
 
-  R1*16
+  a8 r4 a4 r8 a8 r8
+  e'8 r4 e4 r8 e8 r8
+  a,8 r4 a4 r8 a8 r8
+  e'8 r4 e4 r8 e8 r8
 
-  %\tag #'part \mark \default
+  f,8 r4 f4 r8 f8 r8
+  e'8 r4 e4 r8 e8 r8
+  a,8 r4 a4 r8 a8 r8
+  g8 g g8. g16 g4 g4
+
+  a8 r4 a4 r8 a8 r8
+  e'8 r4 e4 r8 e8 r8
+  a,8 r4 a4 r8 a8 r8
+  e'8 r4 e4 r8 e8 r8
+
+  f,8 r4 f4 r8 f8 r8
+  g8 r4 g4 r8 g8 r8
+  c8 r4 c4 r8 c8 r8
+  a8 r4 a4 r8 a8 r8
 
   R1*8
 
@@ -227,7 +245,15 @@ accordionOneBass = \relative a, {
 
   \tag #'part \mark \default
 
-  R1*8
+  f1
+  a1
+  f1
+  a1
+
+  f2 d'2
+  g,2 f2
+  e'1
+  e1
 
   \tag #'part \mark \default
 

@@ -2,10 +2,10 @@
 \include "deutsch.ly"
 \header {
 	composer = "Yuki Kajiura"
-	subtitle = ""
+	subtitle = "From anime «Noir»"
 	title = "Romance"
 	subsubtitle = ""
 	copyright = ""
-	arranger = "Andriy Senkovych"
+	arranger = "arranged by Andrii Senkovych"
 	tagline = ""
 }

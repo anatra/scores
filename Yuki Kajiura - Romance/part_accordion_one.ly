@@ -11,6 +11,7 @@
 \score {
   \new Score {
   \set Score.markFormatter = #format-mark-box-numbers
+  \set Score.skipBars = ##t
   <<
     \new PianoStaff <<
       \set PianoStaff.midiInstrument = "accordion"

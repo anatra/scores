@@ -11,15 +11,17 @@
     \set Score.markFormatter = #format-mark-box-numbers
     \new GrandStaff <<
       \new StaffGroup <<
-        \new Staff <<
-          \set Staff.instrumentName = #"Guitar"
-          \set Staff.midiInstrument = "acoustic guitar (nylon)"
-          \removeWithTag #'score \guitar
-        >>
+        \new ChordNames { \guitarChords } {
+          \new Staff <<
+            \set Staff.instrumentName = #"Guitar"
+            \set Staff.midiInstrument = "acoustic guitar (nylon)"
+            \removeWithTag #'part \guitar
+          >>
+        }
         \new PianoStaff <<
           \set PianoStaff.instrumentName = #"Accordion"
           \set PianoStaff.midiInstrument = "accordion"
-          \removeWithTag #'part \accordionOneSolo
+          \accordionOneSolo
           \removeWithTag #'part \accordionOneBass
         >>
       >>

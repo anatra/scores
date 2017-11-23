@@ -10,13 +10,12 @@
   \new Score {
   \set Score.markFormatter = #format-mark-box-numbers
   <<
-    \new Staff <<
-      \set Staff.midiInstrument = "acoustic guitar (nylon)"
-      \removeWithTag #'score \guitar
-    >>
-    %\new TabStaff <<
-    %  \removeWithTag #'score \transpose a a, \guitar
-    %>>
+    \new ChordNames { \guitarChords } {
+      \new Staff <<
+        \set Staff.midiInstrument = "acoustic guitar (nylon)"
+        \keepWithTag #'part \guitar
+      >>
+    }
   >>
   }
   \layout {

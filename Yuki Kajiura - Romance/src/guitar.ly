@@ -138,7 +138,7 @@ guitar = \relative c' {
   <d, a' d f>8 <d a' d f> <d a' d f> <d a' d f> g'^\markup{rit.} f
   <c, g' c e>8 <c g' c e> <c g' c e> <c g' c e> f' e
   <h, fis' h d>8 <fis' h d> <fis h d> <h, fis' h d> e' d
-  <f,, f' a c>8 <f f' a c> <f f' a c> <f f' a c> d'' c\fermata
+  <f,, f' a c>8-. q8-. q8-. q-. d'' c\fermata
 
   \bTime
   << {\times 2/3 {a8 h c} \times 2/3 {a h c} \times 2/3 {h c h} \times 2/3 {h a g}}
@@ -225,7 +225,7 @@ guitar = \relative c' {
 
   \tag #'part \mark \default
 
-  \times 2/3 {r4 c'8} \times 2/3 {c h c} \times 2/3 {h a g} \times 2/3 {a g f}
+  \times 2/3 {r4 c''8} \times 2/3 {c h c} \times 2/3 {h a g} \times 2/3 {a g f}
   \times 2/3 {e8 g a} \times 2/3 {g e d} \times 2/3 {e4 c16 h16} a4
   \times 2/3 {r8 a8. h16} \times 2/3 {c8 d e} \times 2/3 {a h c} \times 2/3 {h gis f}
   e4~ \times 2/3 {e4 e16 d16} \times 2/3 {e4 c16 h16} a4
@@ -234,7 +234,7 @@ guitar = \relative c' {
   \times 2/3 {d8 c h} \times 2/3 {d c h} c2
   r8 <d, e>8\< <d e> <d e> <d e>8. <c e>8. <h e>8
 
-  <a e'>8. <gis e'>8.\! <e h' e gis h e>8\sp q8 q8\< q8 q8
+  <a e'>8. <gis e'>8.\! <e, h' e gis h e>8\sp q8 q8\< q8 q8
 
   \tag #'part \mark \default
 
@@ -266,7 +266,7 @@ guitar = \relative c' {
   c16 h a e~ e8 c h\mordent a4.
   h'8 d4.~ d8 e,8 a h
 
-  <a c>4. <a c>4 e'8 d c
+  <a c>4.-- <a c>4-.-> e'8 d c
   <gis h>8.-- <gis h e>8.-- <gis h e>8-.-> r8 f'8 e d
   <e, a c>4.-- <e a c e>8-.-> r8 e'8 d c
   <e, gis h>8.-- <e gis h e>8.-- <e gis h e>8-.-> r8 f'8 e d
@@ -288,7 +288,7 @@ guitar = \relative c' {
   \times 2/3 {<g,, h d g h e>4\arpeggio f'' g} \times 2/3 {<f,, c' f a c g'>4\arpeggio f'' e}
   e,,4.-> <e h' e gis h e>8\sp q q\< q q16 q16
   q8^\markup{acc.} q16 q q q q8 q q q q16 q16\!
-  <e a e' a c e>4-> r4 r2
+  <a e' a c e a>4-> r4 r2
 
   \bar "|."
 }

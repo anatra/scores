@@ -2,12 +2,12 @@
 \include "deutsch.ly"
 
 \header {
-    composer = "Юкі Каджіура (Yuki Kajiura)"
-    subtitle = "Заспівай мені"
+    composer = "Yuki Kajiura"
+    subtitle = ""
     title = "Canta per me"
-    subsubtitle = ""
+    subsubtitle = "From anime «Noir»"
     copyright = ""
-    arranger = "Андрій Сенькович (Andrii Senkovych)"
+    arranger = "arranged by Andrii Senkovych"
     tagline = ""
 }
 
@@ -16,11 +16,11 @@
 
 versionedFooter = \markup { \fill-line \center-align {
     \concat {
-      "Версія "
+      "Version "
       \gitCommand "describe --tags --always"
-      " підготовлена "
+      " generated "
       #(strftime "%d.%m.%Y " (localtime (current-time)))
-      #(if (gitIsClean ) "" " (чернетка)")
+      #(if (gitIsClean ) "" " (draft)")
       }
     }
   }

@@ -130,7 +130,7 @@ accordionOneSolo = \relative a' {
   \grace dis8 e8. c16-. r4 r4 \times 2/6 {h8 c h a h c}
   d4. c8 \times 2/3 {h4 c h}
   h1~\startTrillSpan
-  h4-.\stopTrillSpan <gis h e>2.\<
+  h4~-.\stopTrillSpan <gis h e>2.\<
 
   \tag #'part \mark \default
 
@@ -217,27 +217,35 @@ accordionOneBass = \relative a, {
 
   \tag #'part \mark \default
 
-  a8 r4 a4 r8 a8 r8
-  e'8 r4 e4 r8 e8 r8
-  a,8 r4 a4 r8 a8 r8
-  e'8 r4 e4 r8 e8 r8
+  <a a' c e>4-. r8 q4-. r8 q8-. r8
+  <e h'' e gis>4-. r8 q4-. r8 q8-. r8
+  <a a' c e>4-. r8 q4-. r8 q8-. r8
+  <e h'' e gis>4 r8 q4-. r8 q8-. r8
 
-  f,8 r4 f4 r8 f8 r8
-  e'8 r4 e4 r8 e8 r8
-  a,8 r4 a4 r8 a8 r8
-  g8 g g8. g16 g4 g4
+  <f a' c f>4-. r8 q4-. r8 q8-. r8
+  <e h'' e gis>4-. r8 q4-. r8 q8-. r8
+  <a a' c e>4-. r8 q4-. r8 q8-. r8
+  <g h' d g>8-. q-. q8. g16~ q8. g16~ q8 q8-.
 
-  a8 r4 a4 r8 a8 r8
-  e'8 r4 e4 r8 e8 r8
-  a,8 r4 a4 r8 a8 r8
-  e'8 r4 e4 r8 e8 r8
+  <a a' c e>4-. r8 q4-. r8 q8-. r8
+  <e h'' e gis>4-. r8 q4-. r8 q8-. r8
+  <a a' c e>4-. r8 q4-. r8 q8-. r8
+  <e h'' e gis>4 r8 q4-. r8 q8-. r8
 
-  f,8 r4 f4 r8 f8 r8
-  g8 r4 g4 r8 g8 r8
-  c8 r4 c4 r8 c8 r8
-  a8 r4 a4 r8 a8 r8
+  <f a' c f>4-. r8 q4-. r8 q8-. r8
+  <g h' d g>4-. r8 q4-. r8 q8-. r8
+  <c c' e g>4-. r8 q4-. r8 q8-. r8
+  <a a' c e>4 r8 q4-. r8 q8-. r8
 
-  R1*8
+  <f a' c f>4-. r8 q4-. r8 q8-. r8
+  <e h'' e gis>4-. r8 q4-. r8 q8-. r8
+  <a a' c e>4-. r8 q4-. r8 q8-. r8
+  <fis a' c e>4-. r8 q4-. r8 q8-. r8
+
+  <f a' c f>2 <d' a' d f>2
+  <g, h' d g>2  <f a' c f>2
+  <e h'' e gis>1~
+  <e h'' e gis>1
 
   \tag #'part \mark \default
 
@@ -257,15 +265,43 @@ accordionOneBass = \relative a, {
 
   \tag #'part \mark \default
 
-  R1*16
+  R1*15
+  e,4 <h'' e gis>2.
 
   \tag #'part \mark \default
 
-  R1*16
+  a,4-. r8 a4-. r8 a8-. r8
+  gis4-. r8 gis4-. r8 gis8-. r8
+  a4-. r8 a4-. r8 a8-. r8
+  gis4-. r8 gis4-. r8 gis8-. r8
+
+  f4-. r8 f4-. r8 f8-. r8
+  e4-. r8 e4-. r8 e8-. r8
+  a4-. r8 a4-. r8 a8-. r8
+  gis4-. r8 gis4-. r8 gis8-. r8
+
+  a4-. r8 a4-. r8 a8-. r8
+  gis4-. r8 gis4-. r8 gis8-. r8
+  a4-. r8 a4-. r8 a8-. r8
+  gis4-. r8 gis4-. r8 gis8-. r8
+
+  f4-. r8 f4-. r8 f8-. r8
+  g4. g8 f4. f8
+  c'4. c8 c4 h4
+  a4. a8 g4~ <g h' d g>
 
   \tag #'part \mark \default
 
-  R1*9
+  <f a' c f>4-. r8 q4-. r8 q8-. r8
+  <e h'' e gis>4-. r8 q4-. r8 q8-. r8
+  <a a' c e>4-. r8 q4-. r8 q8-. r8
+  <fis a' c e>4-. r8 q4-. r8 q8-. r8
+
+  <f a' c f>2 <d' a' d f>2
+  \times 2/3 {g,4 a h}  \times 2/3 {<f a' c f>2 f4\(}
+  e1~\)\<
+  <e h'' e gis>1
+  <a a' c e>4->\! r4 r2
 
   \bar "|."
 }

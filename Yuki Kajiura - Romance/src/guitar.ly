@@ -210,8 +210,8 @@ guitar = \relative c' {
   <e a e' a c e>8 q8 q8 q8 q16 q16 q8 q8 q16 q16
   <fis a e' a c e>8. q16 q8 q8. q16 q8 q8 q16 q16
   <f c' f a c f>2 <d' a' c f>2\arpeggio
-  \times 2/3 {<g, h d g h g'>4 a h} <f c' f a c f>4. <f c' f a c f>16-.\sp q16-.
-  <e h' e gis h e>8-. q8\< q8 q16 q16 q8 q16 q16 q8 q16 q16
+  \times 2/3 {<g, h d g h g'>4 a h} <f c' f a c f>4. <f c' f a c f>16-. q16-.
+  <e h' e gis h e>8-. q8\sp\< q8 q16 q16 q8 q16 q16 q8 q16 q16
   <e h' e gis h e>1\f\!
 
   \tag #'part \mark \default

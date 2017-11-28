@@ -1,7 +1,8 @@
 guitarChords = \chordmode {
-  \germanChords
+  s4.
 
-  r4.
+  \mark \default
+
   g2. | d2.:m | g2. | d2.:m/f
   g2. | d2.:m | g2. | d2.:m/f
 

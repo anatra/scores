@@ -1,12 +1,32 @@
-\version "2.10.0"
+\version "2.14.2"
 \include "deutsch.ly"
 \header {
 	composer = "Ko Otani"
-	subtitle = ""
 	title = "Free Bird"
 	subtitle = "Вільна птаха"
-    subsubtitle = "з аніме «Альянс Сірокрилих»"
+    subsubtitle = "Fron anime «Haibane Renmei»"
 	copyright = ""
-	arranger = "Andrii Senkovych"
+	arranger = "arranged by Andrii Senkovych"
 	tagline = ""
 }
+
+#(ly:set-option 'relative-includes #t)
+\include "definitions.ily"
+
+versionedFooter = \markup { \fill-line \center-align {
+    \concat {
+      "Version "
+      \gitCommand "describe --tags --always"
+      " generated "
+      #(strftime "%d.%m.%Y " (localtime (current-time)))
+      #(if (gitIsClean ) "" " (draft)")
+      }
+    }
+  }
+
+\paper {
+  oddFooterMarkup = \versionedFooter
+  evenFooterMarkup = \oddFooterMarkup
+}
+
+#(ly:set-option 'relative-includes #f)

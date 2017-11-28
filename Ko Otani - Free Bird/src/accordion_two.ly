@@ -46,8 +46,18 @@ accordionTwo = \relative a'' {
   \mark \default
   \cKey
 
-  R2.*8
-  
+  << {
+    <a fis'>2.
+    <gis e'>2.
+    <g es'>2.
+    <fis d'>2.
+
+    <a fis'>2.
+    <gis e'>2.
+    <g es'>2.
+    <fis d'>2.
+  } \\ { s2.\p\< s2. s2.\> s2. s2.\< s2. s2.\> s2 s8. s16\! } \\ >>
+
   \mark \default
   \dKey
 
@@ -75,14 +85,14 @@ accordionTwo = \relative a'' {
   \mark \default
   \eKey
 
-  <cis e>8 a <cis e> a <cis e> a
-  <c e>8 f, <a c e>8 f <a c e> f
-  <h d>8 g <h d> g <h d> g
-  <c e>8 g <c e> g <h d> g
+  e8 a, cis e a, cis
+  e8 f, a <c e> f, a
+  <h d> g h <h d> g h
+  <c e>8 g c <c e> d h
 
-  <a c>8 e <a c> e <a c> e
-  <a c>8 f <a c> f <a c> f
-  <h d>8 g <h d> g h d 
+  <a c>8 e a <a c> e a
+  <a c>8 f a <a c> f a
+  <h d>8 g h d h d
   <h g'>4. r4.
 
   \mark \default

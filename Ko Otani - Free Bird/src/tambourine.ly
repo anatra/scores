@@ -70,7 +70,10 @@ tambourine = \drummode {
 
   \mark \default
 
-  R2.*8
+  tri4. r4.
+  R2.*3
+  tri4. r4.
+  R2.*3
 
   \mark \default
 

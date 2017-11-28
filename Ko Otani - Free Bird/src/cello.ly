@@ -55,7 +55,7 @@ celloOne = \relative c' {
   \cKey
 
   R2.*8
-  
+
   \mark \default
   \dKey
 

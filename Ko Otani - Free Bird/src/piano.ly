@@ -4,7 +4,7 @@ pianoRight = \relative c' {
   \defaultTime
 
   \partial 4. r4.
-  
+
   \mark \default
 
   R2.*8
@@ -44,7 +44,7 @@ pianoRight = \relative c' {
 
   \mark \default
   \cKey
-  
+
   fis'4.~ fis8 a, fis'
   e4.~ e8 gis,8 e'
   es4.~ es8 g, es'
@@ -115,7 +115,7 @@ pianoLeft = \relative c {
   \defaultTime
 
   \partial 4. r4.
-  
+
   \mark \default
 
   R2.*8
@@ -153,7 +153,7 @@ pianoLeft = \relative c {
 
   \mark \default
   \cKey
-  
+
   d8 a' d d, a' d
   d,8 gis e' d, gis e'
   d,8 g es' d, g es'
@@ -187,7 +187,7 @@ pianoLeft = \relative c {
 
   a,,8 e' a h c e
   f,,8 c' f g a h
-  g,8 d' g a h d 
+  g,8 d' g a h d
   g4. r4.
 
   \mark \default

@@ -31,7 +31,7 @@ guitar = \relative c'' {
   \aKey
   \defaultTime
   \partial 4. r4.
-  
+
   \mark \default
 
   g8. g16 g8 g8 g8 g8
@@ -80,7 +80,7 @@ guitar = \relative c'' {
   b8. b16 b8 b b16 b b8
   c8 c16 c c8 c c c
 
-  << { 
+  << {
     r4 <f a d>8 r4 <e a c>8
     d'2.
     r4 <f, a d>8 r4 <e a c>8
@@ -105,13 +105,13 @@ guitar = \relative c'' {
     r8 h e gis e h
     r8 b es g es b
     d,2.
-    
+
   } \\ {
-    
+
     d2. d2. d2. d2.
-    d2. d2. d2. d2.} 
+    d2. d2. d2. d2.}
   >>
-  
+
   \mark \default
   \dKey
 

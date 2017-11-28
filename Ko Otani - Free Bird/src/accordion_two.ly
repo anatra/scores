@@ -4,7 +4,7 @@ accordionTwo = \relative a'' {
   \defaultTime
 
   \partial 4. r4.
-  
+
   \mark \default
 
   R2.*8
@@ -39,7 +39,7 @@ accordionTwo = \relative a'' {
 
   f8 e d g f e
   f8 e d g f e
-  
+
   f,8\p e d g f e
   f8 e d d4.
 
@@ -64,13 +64,13 @@ accordionTwo = \relative a'' {
   << {
     a'2.
     g4.~ g4 fis8
-    e4. a4. 
+    e4. a4.
     g4. fis8 g fis
 
     e2.
     e2.
     cis4. a4.
-    e'4. h8 cis d 
+    e'4. h8 cis d
   } \\ {
     cis2.
     h2.

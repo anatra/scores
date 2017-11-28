@@ -6,9 +6,9 @@ violinOne = \relative c'' {
   \set Score.skipBars = ##t
 
   \partial 4. g8 g a
-  
+
   \mark \default
-  
+
   h4. h8 h c
   d4. d8 d e
   f4. e4.
@@ -63,7 +63,7 @@ violinOne = \relative c'' {
   \cKey
 
   R2.*8
-  
+
   \mark \default
   \dKey
 

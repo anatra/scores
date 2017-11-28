@@ -6,9 +6,9 @@ fluteOne = \relative c'' {
   \set Score.skipBars = ##t
 
   \partial 4. r4.
-  
+
   \mark \default
-  
+
   R2.*8
 
   \mark \default
@@ -32,7 +32,7 @@ fluteOne = \relative c'' {
 
   \clef treble
   r4. a8 a h
-  
+
   \mark \default
   \dKey
 

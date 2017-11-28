@@ -4,7 +4,7 @@ violinTwo = \relative a'' {
   \defaultTime
 
   \partial 4. r4.
-  
+
   \mark \default
 
   R2.*8
@@ -39,7 +39,7 @@ violinTwo = \relative a'' {
 
   f8 e d g f e
   f8 e d g f e
-  
+
   f,8\p e d g f e
   f8 e d d4.
 
@@ -47,7 +47,7 @@ violinTwo = \relative a'' {
   \cKey
 
   R2.*8
-  
+
   \mark \default
   \dKey
 

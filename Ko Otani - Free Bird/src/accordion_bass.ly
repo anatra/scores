@@ -7,7 +7,7 @@ accordionBass = \relative c {
   \partial 4. r4.
 
   \mark \default
-  
+
   g4. <g' h d>4 g,8
   d'4. <a' d f>4 d,8
   g,4. <g' h d>4 g,8

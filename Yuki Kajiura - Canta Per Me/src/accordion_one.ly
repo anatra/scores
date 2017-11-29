@@ -36,7 +36,7 @@ accordionOneSolo = \relative a' {
 
   \mark \default
 
-  r8\p\accViolin d16 <f a>8  r8. d16  <f a>8  r16 <d a'>8 <f a>8
+  r8\p d16 <f a>8  r8. d16  <f a>8  r16 <d a'>8 <f a>8
   r8 b,16 <f' a>8 r8. b,16 <f' a>8 r16 <b, d>8 <f' a>8
   r8 c16  <e g>8  r8. c16  <e g>8  r16 <e g>8  <f a>8
   r8 d16  <f a>8  r8. d16  <f a>8  r16 <f a>8\( <e g>16 <d f>16
@@ -56,7 +56,7 @@ accordionOneSolo = \relative a' {
   <b d g>8\) r8. <b d>16 <b d g>8 r8. <cis e>16 <cis g'>8 <cis a'>16~\(<cis e>16
   <d f>8\) r8. <d f>16 <f a>8 r8. <c f>16 <f a>8 g16\( f16
   <b, d>8\)\sp r8. <b d>16-. <d f>8-. r8. <b d>16-. <d f>8-. <b d>16\(~\< <b f'>16
-  <c g'>2.\)\! a16\( c e g
+  <c g'>2.\)\! a16\(\accViolin c e g
 
   \mark \default
 

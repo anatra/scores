@@ -25,7 +25,7 @@ accordionBass = \relative c {
 
   b8 r16 b8 r16 b8 a8 r16 a8 r16 a8
   d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
-  b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
+  b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b8
 
   c1
 

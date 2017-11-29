@@ -25,7 +25,7 @@ fluteOne = \relative c' {
   d8 d16 d8 d16 d8 d16 c8 c16 c8-- c16 c16
   b8 b16 b8 b16 b8 b16 a8 a16 a8-- a16 a16
   d8 d16 d8 d16 d8 d16 c8 c16 c8-- c16 c16
-  
+
   b8 b16 b8 b16 b8 b16 a8 a16 a8-- a16 a16
   d8 d16 d8 d16 d8 d16 c8 c16 c8-- c16 c16
   b8 b16 b8 b16 b8 b16 b8 b16 b8-- b16 b16
@@ -35,7 +35,7 @@ fluteOne = \relative c' {
 
   d'8\mp d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
   d8 d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
-  
+
   \mark \default
 
   a4\mp a8 a g4 g8 a
@@ -50,12 +50,12 @@ fluteOne = \relative c' {
 
   \mark \default
 
-  c b a g 
+  c b a g
   g a~a a
-  a g f e 
-  g f g^"," a 
+  a g f e
+  g f g^"," a
 
-  c b a g 
+  c b a g
   b8-.\> r16 b16\( a4-.\) g f
   d d2~\p\! d8 g\<
   g a c2\! a16\( c e g

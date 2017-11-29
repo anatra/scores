@@ -50,12 +50,12 @@ celloTwo = \relative c {
 
   \mark \default
 
-  c b a g 
+  c b a g
   g a~a a
-  a g f e 
-  g f g^"," a 
+  a g f e
+  g f g^"," a
 
-  c b a g 
+  c b a g
   b8-.\> r16 b16\( a4-.\) g f
   d d2~\p\! d8 g\<
   g a c2\! a16\( c e g

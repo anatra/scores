@@ -125,7 +125,7 @@ accClarin = ^\markup {
 
 accPiccolo = ^\markup {
   \combine
-  \discant 
+  \discant
   \raise #2.5 \dot
 }
 

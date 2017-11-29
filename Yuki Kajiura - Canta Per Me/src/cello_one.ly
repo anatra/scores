@@ -26,7 +26,7 @@ celloOne = \relative c {
   a8 a16 a8 a16 a8 a16 g8 g16 g8 g8
   g8 g16 g8 g16 g8 g16 a8 a16 a8 a8
   a8 a16 a8 a16 a8 a16 g8 g16 g8 g8
-  
+
   f8 f16 f8 f16 f8 f16 g8 g16 g8 g8
   a8 a16 a8 a16 a8 a16 g8 g16 g8 g8
   f8 f16 f8 f16 f8 f16 f8 f16 f8 f8
@@ -54,12 +54,12 @@ celloOne = \relative c {
 
   \mark \default
 
-  e d c b 
+  e d c b
   b c~c c
-  c b a g 
-  b a b c 
+  c b a g
+  b a b c
 
-  e d c b 
+  e d c b
   d8-. r16 d16\( cis4-.\) b a
   a b2~b8 \ottava #0 g,
   << { g a c2.~ } { s2. s4\> } >>
@@ -83,7 +83,7 @@ celloOne = \relative c {
   d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
   b8 b16 b8 b16 b8 a8 a16 a8 a16 a8
   d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
-  
+
   b8\mp b16 b8 b16 b8 a8 a16 a8 a16 a8
   d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
   b8 b16 b8 b16 b8 b16 b16 b16 b8 b16 b8
@@ -91,7 +91,7 @@ celloOne = \relative c {
 
   d8\mp\) d16 d8 d16 d8 d16 d8 d16 d8 d8
   d8 d16 d8 d16 d8 d16 d8 d16 d8 d8
-  
+
   << { d2 r2 } { s4.\< s8\! s2} >>
 
   \bar "|."

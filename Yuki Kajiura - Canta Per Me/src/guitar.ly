@@ -10,8 +10,8 @@ guitarChords = \chordmode {
 
   \mark\default
 
-  g2:m a2 | d2:m c2 | g2:m a2 | d2:m c2 |
-  g2:m a2 | d2:m c2 | b1 | c1 |
+  b2 a2 | d2:m c2 | b2 a2 | d2:m c2 |
+  b2 a2 | d2:m c2 | b1 | c1 |
 
   \mark\default
 
@@ -25,8 +25,8 @@ guitarChords = \chordmode {
 
   \mark\default
 
-  g2:m a2 | d2:m c2 | g2:m a2 | d2:m c2 |
-  g2:m a2 | d2:m c2 | b1 | c1 |
+  b2 a2 | d2:m c2 | b2 a2 | d2:m c2 |
+  b2 a2 | d2:m c2 | b1 | c1 |
 
   \mark\default
 
@@ -35,8 +35,8 @@ guitarChords = \chordmode {
 
   \mark \default
 
-  g2:m a2 | d2:m c2 | g2:m a2 | d2:m c2 |
-  g2:m a2 | d2:m c2 | b1 | c1 |
+  b2 a2 | d2:m c2 | b2 a2 | d2:m c2 |
+  b2 a2 | d2:m c2 | b1 | c1 |
 
   d1:m~ | d1:m~ | d1:m
   \bar "|."
@@ -62,21 +62,25 @@ guitar = \relative c' {
   d8-> d16 d8-> d16 d8-> d16 d8-> d16 d8-> d8->
   b8-> b16 b8-> b16 b8-> b16 b8-> b16 b32-> b32 b16 b16-> b16
   c8-> c16 c8-> c16 c8-> c16 c8-> c16 c8-> c8->
-  f,8-> f16 f8-> f16 f8-> f16 f8-> f16 f8-> f8->
+  f8-> f16 f8-> f16 f8-> f16 f8-> f16 f8-> f8->
 
   \mark \default
 
-  g8->   g16 g8-> g16 g8-> a16->\< a16 a a a16 a16 a8->\glissando
+  b,8->   b16 b8-> b16 b8-> a16->\< a16 a a a16 a16 a8->\glissando
   d8->\! d16 d8-> d16 d8-> c32-> c32 c16 c c-> c16 c16 c8->
-  g8->   g16 g8-> g16 g8-> a8-> a16 a8-> a16 a8->
+  b8->   b16 b8-> b16 b8-> a8-> a16 a8-> a16 a8->
   d8->   d16 d8-> d16 d8-> c16-> c c c16 c c c8->
 
-  g8->\mf   g16 g8-> g16 g8-> a16-> a16 a a a8-. a8->\glissando
+  b8->\mf b16 b8-> b16 b8-> a16-> a16 a a a8-. a8->\glissando
   d16.->^\markup{ \italic arp. } d32-> d16 d8 d16 d8-> c16-> c32 c32 c16 c16 c16 c16 c8
   b8-> b16 b8-> b16 b8-> b16 b8-> b16 b8-> b8->
-  c32 c32 c8.->~ c2 a16^\markup{\italic pizz.} c e g
+  c32 c32 c8.->~ c2
+
+  \override NoteHead.style = #'default
+  a16 c e g
 
   \mark \default
+  \override NoteHead.style = #'diamond
 
   d16->\mp d d d-> d d d-> d d d-> d d d8-> d->
   d16->        d d d-> d d d-> d d d-> d d d8-> d->
@@ -95,13 +99,12 @@ guitar = \relative c' {
 
   \mark \default
 
-  r8 g16\p g-. g-. g-. g8-> a16 a\( a\) a-. a-. a-. a8->
-  r8 g16 g-. g-. g-. g8-> a32-> a32 a16 a-. a-. a-. a-. a8->
-  g8 g16 g8 g16 g8 a16 a-> a-> a a a a8->
+  r8 b,16\p b-. b-. b-. b8-> a16 a\( a\) a-. a-. a-. a8->
+  r8 d16 d-. d-. d-. d8-> c32-> c32 c16 c-. c-. c-. c-. c8->
+  b8 b16 b8 b16 b8 a16 a-> a-> a a a a8->
   d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
 
-  g8^\markup{\italic arp.}-> g16 g8-> g16 g8->
-    a16 a16-> a16 g16 g8-> g8->
+  b8^\markup{\italic arp.}-> b16 b8-> b16 b8-> a16 a16-> a16 a16 a8-> a8->
   d8 d16 d8 d16 d8 c16 c-> c-> c c c c8->
   b8-> b16 b8-> b16 b8-> b16 b8-> b16 b8-> b8->
   c2. r4
@@ -121,12 +124,12 @@ guitar = \relative c' {
   \mark \default
 
 
-  g8-> g16 g8-> g16 g8-> a16 a-> a-> a a a a8->
+  b8-> b16 b8-> b16 b8-> a16 a-> a-> a a a a8->
   d8-> d16 d8-> d16 d8-> c16 c8-> c16 c8-> c8
-  g8-> d16 g8-> g16 g8-> a16 a8-> a8-> a16 a8->
+  b8-> b16 b8-> b16 b8-> a16 a8-> a8-> a16 a8->
   d8-> d16 d8-> d16 d8-> c16 c32 c32 c16-> c16 c16 c16 c8->
 
-  g8-> g16 g8-> g16 g8-> a16 a32 a32 a16-> a16 a8-> a8->
+  b8-> b16 b8-> b16 b8-> a16 a32 a32 a16-> a16 a8-> a8->
   d8-> d16 d8-> d16 d8-> c16 c8-> c8-> c16 c8->
   b8->\p b16 b8-> b16 b8-> b16 b8-> b16 b8-> b32 b32 b16->
   c2. r4

@@ -5,9 +5,9 @@ accordionBass = \relative c {
   \clef bass
 
   d2. d16-. d-. d-. d-.
-  d,2. d16-. d-. d-. d-.
+  d2. d16-. d-. d-. d-.
 
-  d'8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
+  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
   b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
   c8 r16 c8 r16 c8 r16 c8 r16 c16 c16 c16 c16
   d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
@@ -23,60 +23,59 @@ accordionBass = \relative c {
   b8 r16 b8 r16 b8 a8 r16 a8 r16 a8
   d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
 
-  g8 r16 g8 r16 g8 a8 r16 a8 r16 a8
+  b8 r16 b8 r16 b8 a8 r16 a8 r16 a8
   d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
   b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
 
   c1
 
-
-  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
-  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
-
-
-  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
-  b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
-  c8 r16 c8 r16 c8 r16 c8 r16 c16 c16 c16 c16
-  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
-
-  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
-  b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
-  c8 r16 c8 r16 c8 r16 c8 r16 c16 c16 c16 c16
-  f8 r16 f8 r16 f8 r16 f8 r16 f16 f16 f16 f16
+  d8 r16 d8 r16 d8 r16 d8 r16 d8 d8
+  d8 r16 d8 r16 d8 r16 d8 r16 d8 d8
 
 
-  <g, g'>2 <a a'>
-  <d d'> <c c'>
-  <b b'> <a a'>
-  <d d'> <c c'>
+  d8 r16 d8 r16 d8 r16 d8 r16 d8 d8
+  b8 r16 b8 r16 b8 r16 b8 r16 b8 b8
+  c8 r16 c8 r16 c8 r16 c8 r16 c8 c8
+  d8 r16 d8 r16 d8 r16 d8 r16 d8 d8
 
-  <g g'> <a a'>
-  <d d'> <c c'>
-  <b b'>1
-  <c g' c>
+  d8 r16 d8 r16 d8 r16 d8 r16 d8 d8
+  b8 r16 b8 r16 b8 r16 b8 r16 b8 b8
+  c8 r16 c8 r16 c8 r16 c8 r16 c8 c8
+  f8 r16 f8 r16 f8 r16 f8 r16 f8 f8
 
-  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
-  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
-  b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
-  c8 r16 c8 r16 c8 r16 c8 r16 c16 c16 c16 c16
 
-  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
-  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
-  b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
-  c8 r16 c8 r16 c8 r16 c8 r16 c16 c16 c16 c16
+  b,2 a
+  d c
+  b a
+  d c
 
-  b8 r16 b8 r16 b8 a8 r16 a8 r16 a8
-  d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
-  b8 r16 b8 r16 b8 a8 r16 a8 r16 a8
-  d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
+  b a
+  d c
+  b8 r16 b8 r16 b8 r16 b8 r16 b8 b8\(
+  c1\)
+
+  d8 r16 d8 r16 d8 r16 d8 r16 d8 d8
+  d8 r16 d8 r16 d8 r16 d8 r16 d8 d8
+  b8 r16 b8 r16 b8 r16 b8 r16 b8 b8
+  c8 r16 c8 r16 c8 r16 c8 r16 c8 c8
+
+  d8 r16 d8 r16 d8 r16 d8 r16 d8 d8
+  d8 r16 d8 r16 d8 r16 d8 r16 d8 d8
+  b8 r16 b8 r16 b8 r16 b8 r16 b8 b8
+  c8 r16 c8 r16 c8 r16 c8 r16 c8 c8
 
   b8 r16 b8 r16 b8 a8 r16 a8 r16 a8
   d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
-  b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
+  b8 r16 b8 r16 b8 a8 r16 a8 r16 a8
+  d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
+
+  b8 r16 b8 r16 b8 a8 r16 a8 r16 a8
+  d8 r16 d8 r16 d8 c8 r16 c8 r16 c8
+  b8 r16 b8 r16 b8 r16 b8 r16 b8 b8
   c1
 
   d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
-  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
+  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d8
 
   d2 r2
 

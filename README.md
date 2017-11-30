@@ -13,7 +13,7 @@ Arrangements: Nadiya Buts, Andrii Senkovych
 
 Art Director: Nadiya Buts
 
-Tech Director: Andrii Senkovych
+Tech Director: Andrii Senkovych, Danylo Kalashnyk
 
 ## Former members:
 

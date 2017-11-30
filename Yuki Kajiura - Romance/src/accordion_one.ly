@@ -270,23 +270,23 @@ accordionOneBass = \relative a, {
 
   \tag #'part \mark \default
 
-  a,4-. r8 a4-. r8 a8-. r8
-  gis4-. r8 gis4-. r8 gis8-. r8
-  a4-. r8 a4-. r8 a8-. r8
-  gis4-. r8 gis4-. r8 gis8-. r8
+  a,4-. r8 <a' c e>4-. a,4-. a8\(
+  e4-.\) r8 <h'' e gis>4-. e,,4-. e8\(
+  a4-.\) r8 <a' c e>4-. a,4-. a8\(
+  e4-.\) r8 <h'' e gis>4-. e,,4-. e8\(
 
-  f4-. r8 f4-. r8 f8-. r8
-  e4-. r8 e4-. r8 e8-. r8
-  a4-. r8 a4-. r8 a8-. r8
-  gis4-. r8 gis4-. r8 gis8-. r8
+  f4-.\) r8 <f' a c>4-. f,4-. f8\(
+  e4-.\) r8 <h'' e gis>4-. e,,4-. e8\(
+  a4-.\) r8 <a' c e>4-. a,4-. a8\(
+  e4-.\) r8 <h'' e gis>4-. e,,4-. e8\(
 
-  a4-. r8 a4-. r8 a8-. r8
-  gis4-. r8 gis4-. r8 gis8-. r8
-  a4-. r8 a4-. r8 a8-. r8
-  gis4-. r8 gis4-. r8 gis8-. r8
+  a4-.\) r8 <a' c e>4-. a,4-. a8\(
+  e4-.\) r8 <h'' e gis>4-. e,,4-. e8\(
+  a4-.\) r8 <a' c e>4-. a,4-. a8\(
+  e4-.\) r8 <h'' e gis>4-. e,,4-. e8\(
 
-  f4-. r8 f4-. r8 f8-. r8
-  g4. g8 f4. f8
+  f4-.\) r8 <f' a c>4-. f,4-. f8\(
+  g4.\) g8 f4. f8
   c'4. c8 c4 h4
   a4. a8 g4~ <g h' d g>
 

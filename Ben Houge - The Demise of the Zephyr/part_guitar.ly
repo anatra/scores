@@ -1,6 +1,6 @@
 \include "src/header.ly"
 \include "src/settings.ly"
-\include "src/guiltar.ly"
+\include "src/guitar.ly"
 
 \header {
   instrument = "Guitar"
@@ -11,7 +11,7 @@
   \set Score.markFormatter = #format-mark-box-numbers
   <<
     \new Staff <<
-      \set Staff.midiInstrument = "acoustic guitar"
+      \set Staff.midiInstrument = "acoustic guitar (nylon)"
       \removeWithTag #'score \guitarOneSolo
     >>
   >>

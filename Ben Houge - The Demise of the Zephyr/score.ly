@@ -14,7 +14,7 @@
     \set Score.markFormatter = #format-mark-box-numbers
     \new GrandStaff <<
         \new Staff <<
-          \set Staff.midiInstrument = "guitar"
+          \set Staff.midiInstrument = "acoustic guitar (nylon)"
           \set Staff.instrumentName = #"Guitar"
           \keepWithTag #'score \guitarOneSolo
         >>

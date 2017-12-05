@@ -11,3 +11,24 @@
 }
 
 sffz = #(make-dynamic-script "sffz")
+
+#(ly:set-option 'relative-includes #t)
+\include "definitions.ily"
+
+versionedFooter = \markup { \fill-line \center-align {
+    \concat {
+      "Version "
+      \gitCommand "describe --tags --always"
+      " generated "
+      #(strftime "%d.%m.%Y " (localtime (current-time)))
+      #(if (gitIsClean ) "" " (draft)")
+      }
+    }
+  }
+
+\paper {
+  oddFooterMarkup = \versionedFooter
+  evenFooterMarkup = \oddFooterMarkup
+}
+
+#(ly:set-option 'relative-includes #f)

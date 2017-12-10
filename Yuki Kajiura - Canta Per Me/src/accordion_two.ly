@@ -37,7 +37,7 @@ accordionTwoSolo = \relative a' {
 
   \mark \default
 
-  <e, a>8\p   r8. d16 <e a>8 r8. d16 <e a>8 f16\(  d
+  <e, a>8\p\accClarin   r8. d16 <e a>8 r8. d16 <e a>8 f16\(  d
   <b f' a>8\) r8. b16 <d f>8 r8. b16 <d f>8 b16\( d
   c8\)        r8. c16 <f a>8 r8. c16 <e g>8 d16\(  f
   <e a>8\)    r8. d16 <e a>8 r8. d16 <e a>8 <f a>8
@@ -62,7 +62,7 @@ accordionTwoSolo = \relative a' {
 
   \mark \default
 
-  <a' e'>8\mp r16 <a e'>8 r16 <a e'>8 r16 <a e'>8 r16 <a e'>8 <a e'>8
+  <a' e'>8\mp\accViolin r16 <a e'>8 r16 <a e'>8 r16 <a e'>8 r16 <a e'>8 <a e'>8
   <a e'>8 r16 <a e'>8 r16 <a e'>8 r16 <a e'>8 r16 <a e'>8 <a e'>8
   <f d'>8 r16 <f d'>8 r16 <f d'>8 r16 <f d'>8 r16 <f d'>8 <f d'>8
   <g e'>8 r16 <g e'>8 r16 <g e'>8 r16 <g e'>8 r16 <g e'>8 <g e'>8
@@ -70,7 +70,7 @@ accordionTwoSolo = \relative a' {
   <a e'>8 r16 <a e'>8 r16 <a e'>8 r16 <a e'>8 r16 <a e'>8 <a e'>8
   <a e'>8 r16 <a e'>8 r16 <a e'>8 r16 <a e'>8 r16 <a e'>8 <a e'>8
   <f d'>8 r16 <f d'>8 r16 <f d'>8 r16 <f d'>8 r16 <f d'>8 <f d'>8
-  <g e'>8 r16 <g e'>8 r16 <g e'>8 r16 <g e'>8 r16 <a' c>4\mf\(
+  <g e'>8 r16 <g e'>8 r16 <g e'>8 r16 <g e'>8 r16 <a c>4\mf\(
 
   \mark \default
 
@@ -83,7 +83,7 @@ accordionTwoSolo = \relative a' {
   <e g>4 <f a>2.\) 
   R1*2
   
-  e8\mp e16 e8 e16 e8 e16 e8 e16 e8 e8
+  e'8\mp e16 e8 e16 e8 e16 e8 e16 e8 e8
   e8 e16 e8 e16 e8 e16 e8 e16 e8 e8
 
   << { d2 r2 } { s8.\< s16\> s2\! } >>

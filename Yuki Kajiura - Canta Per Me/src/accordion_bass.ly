@@ -5,9 +5,9 @@ accordionBass = \relative c {
   \clef bass
 
   d2. d16-. d-. d-. d-.
-  d,2. d16-. d-. d-. d-.
+  d2. d16-. d-. d-. d-.
 
-  d'8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
+  d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16
   b8 r16 b8 r16 b8 r16 b8 r16 b16 b16 b16 b16
   c8 r16 c8 r16 c8 r16 c8 r16 c16 c16 c16 c16
   d8 r16 d8 r16 d8 r16 d8 r16 d16 d16 d16 d16

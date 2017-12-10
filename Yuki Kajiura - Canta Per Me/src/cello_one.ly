@@ -3,22 +3,21 @@ celloOne = \relative c {
   \defaultKey
   \defaultTime
   \clef bass
-  \set Score.skipBars = ##t
   \override Glissando #'style = #'trill
-  a'8\mp a16 a8 a16 a8 a16 a8 a16 a8 a8
-  a8 a16 a8 a16 a8 a16 a8 a16 a8 a8
+  d8\mp d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
+  d8 d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
 
   \mark \default
 
-  a8\mp a16 a8 a16 a8 a16 a8 a16 a8 a8
-  f8 f16 f8 f16 f8 f16 f8 f16 f8 f8
-  g8 g16 g8 g16 g8 g16 g8 g16 g8 g8
-  a8 a16 a8 a16 a8 a16 a8 a16 a8 a8
+  d8\mp d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
+  b8 b16 b8 b16 b8 b16 b8 b16 b8-- b16 b16
+  c8 c16 c8 c16 c8 c16 c8 c16 c8-- c16 c16
+  d8 d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
 
-  a8 a16 a8 a16 a8 a16 a8 a16 a8 a8
-  f8 f16 f8 f16 f8 f16 f8 f16 f8 f8
-  g8 g16 g8 g16 g8 g16 g8 g16 g8 g8
-  f8 f16 f8 f16 f8 f16 f8 f16 f8 f8
+  d8 d16 d8 d16 d8 d16 d8 d16 d8-- d16 d16
+  b8 b16 b8 b16 b8 b16 b8 b16 b8-- b16 b16
+  c8 c16 c8 c16 c8 c16 c8 c16 c8-- c16 c16
+  f8 f16 f8 f16 f8 f16 f8 f16 f8-- f16 f16
 
   \mark \default
 
@@ -40,35 +39,34 @@ celloOne = \relative c {
 
   \mark \default
 
-  c4\mp c8 c c4 c8 c
-  c4 c~c c
-  c c~c g
-  g a2.
+  a4\mp a8 a g4 g8 a
+  g4 f~f a
+  a g~g e
+  e f2.
 
-  \ottava #1
-  \set Staff.ottavation = #"8"
-  c'4 c8 c c4 c8 c
-  c4 c~c c
-  c c~c c
-  c c~c e\mf
+  a4 a8 a g4 g8 a
+  g4 f~f a
+  a g~g b
+  b a~a c\mf
 
   \mark \default
 
-  e d c b 
-  b c~c c
   c b a g 
-  b a b c 
+  g a~a a
+  a g f e 
+  g f g^"," a 
 
-  e d c b 
-  d8-. r16 d16\( cis4-.\) b a
-  a b2~b8 \ottava #0 g,
-  << { g a c2.~ } { s2. s4\> } >>
+  c b a g 
+  b8-.\> r16 b16\( a4-.\) g f
+  d d2~\p\! d8 g\<
+  g a c2\! a16\( c e g
 
   \mark \default
 
-  c2\! r2
-  R1*2
-  r2 r4 \times 2/3 {r8 d d}
+  g8.\mf\) f16 \times 2/3 {e8 f e} \times 2/3 {d e d} d8. a16
+  f8. e16 \times 2/3 {d8 f a} \times 2/3 {c a a} \times 2/3 {a g f}
+  b,8. a16 \times 2/3 {b8 d f} \times 2/3 {a c c} \times 2/3 {c a g16 f}
+  e4~\< \times 2/3 {e8 g g} \times 2/3 {g b b} \times 2/3 {b\! d\> d}
 
   \autoBeamOff
   d'8.\f a8 a16 a \grace { b16[ a16]} g a8. g8 g16 g \grace { a16[ g16]} f
@@ -87,7 +85,7 @@ celloOne = \relative c {
   b8\mp b16 b8 b16 b8 a8 a16 a8 a16 a8
   d8 d16 d8 d16 d8 c8 c16 c8 c16 c8
   b8 b16 b8 b16 b8 b16 b16 b16 b8 b16 b8
-  << { c2. a16\!\( c e f} { s2\< s4\! s4 } >>
+  << { c2. a16\!\( c e g} { s2\< s4\! s4 } >>
 
   d8\mp\) d16 d8 d16 d8 d16 d8 d16 d8 d8
   d8 d16 d8 d16 d8 d16 d8 d16 d8 d8

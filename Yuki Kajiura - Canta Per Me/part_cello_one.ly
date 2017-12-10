@@ -1,7 +1,7 @@
 \include "src/header.ly"
 
 \header {
-    instrument = "Cello 1"
+    instrument = "Cello"
 }
 
 \include "src/settings.ly"

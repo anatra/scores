@@ -1,5 +1,5 @@
 guitarChords = \chordmode {
-  \germanChords
+%  \germanChords
   d1:m~
   d1:m~
 
@@ -47,7 +47,8 @@ guitar = \relative c' {
   \defaultKey
   \defaultTime
   \override Glissando #'style = #'trill
-  d16->^\markup{\italic mute}\mp d d d-> d d d-> d d d-> d d d8-> d->
+  \override NoteHead.style = #'diamond
+  d16->\mp d d d-> d d d-> d d d-> d d d8-> d->
   d16-> d d d-> d d d-> d d d-> d d d8-> d->
 
   \mark \default
@@ -72,7 +73,11 @@ guitar = \relative c' {
   g8->\mf   g16 g8-> g16 g8-> a16-> a16 a a a8-. a8->\glissando
   d16.->^\markup{ \italic arp. } d32-> d16 d8 d16 d8-> c16-> c32 c32 c16 c16 c16 c16 c8
   b8-> b16 b8-> b16 b8-> b16 b8-> b16 b8-> b8-> 
-  c32 c32 c8.->~ c2 a16^\markup{\italic pizz.} c e g
+  c32 c32 c8.->~ c2 
+  
+  \override NoteHead.style = #'default
+  a16 c e g
+  \override NoteHead.style = #'diamond
 
   \mark \default
 
@@ -119,9 +124,9 @@ guitar = \relative c' {
   \mark \default
 
 
-  g8-> g16 g8-> g16 g8-> c16 a-> a-> a a a a8->
+  g8-> g16 g8-> g16 g8-> a16 a-> a-> a a a a8->
   d8-> d16 d8-> d16 d8-> c16 c8-> c16 c8-> c8
-  g8-> d16 g8-> g16 g8-> a16 a8-> a8-> a16 a8->
+  g8-> g16 g8-> g16 g8-> a16 a8-> a8-> a16 a8->
   d8-> d16 d8-> d16 d8-> c16 c32 c32 c16-> c16 c16 c16 c8->
 
   g8-> g16 g8-> g16 g8-> a16 a32 a32 a16-> a16 a8-> a8->

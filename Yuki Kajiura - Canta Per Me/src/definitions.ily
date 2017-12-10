@@ -95,7 +95,7 @@ gitRevisionNumber = \markup { \gitCommand "log --oneline | wc -l" }
 % doesn't have any uncommitted changes
 #(define (gitIsClean)
     (and
-        (eq? 0 (system* "git" "diff-index" "--quiet" "HEAD" "--"))
+        (eq? 0 (system "git diff-index --quiet HEAD --"))
         (eq? "" (strsystem_internal  "git ls-files --exclude-standard --others"))
     )
 )
